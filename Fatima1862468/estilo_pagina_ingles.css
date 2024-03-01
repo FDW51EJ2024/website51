@@ -1,0 +1,41 @@
+.left_body {
+    margin-right: 270px; /* Ajusta el margen derecho para dejar espacio para el menú */
+}
+
+body {
+    margin-top: 150px;
+}
+
+.tamaño_img {
+    height: 200px;
+}
+
+.alinear {
+    text-align: center; /* Centra el texto del párrafo */
+    
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px ;
+    text-align: center; /* Centra el texto del párrafo */
+    color: rgb(206, 11, 11);
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(9, 51, 187);
+}
+
+p, a, dd, dt, th {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+dd, dt, label, main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
