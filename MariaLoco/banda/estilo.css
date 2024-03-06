@@ -47,13 +47,37 @@ img {
     height: 322px;
 }
 
-.h1 {
-    font-size: 75px;
+.contenedor {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    outline: 4px solid black;
+}
+
+#h1 {
+    -webkit-text-stroke: 2px red;
+    font-size: 500%;
     border: 4px solid red;
     border-radius: 10px;
     background: black;
-    color:red;
+    color:white;
+    margin: 4px;
 }
+.h2 {
+    -webkit-text-stroke: 2px red;
+    font-size: 400%;
+    border: 4px solid red;
+    border-radius: 10px;
+    background: black;
+    color:white;
+}
+.border {
+    border: 4px solid red;
+    border-radius: 10px;
+    background: black;
+}
+
 .frame {
     margin: 0;
     padding: 0.3rem;
@@ -77,8 +101,6 @@ aside {
     padding-left: 0.5rem;
     margin-left: 0.5rem;
     float: right;
-    font-style: italic;
-    color: rgb(70, 17, 17);
 }
 aside > p {
     margin: 0.5rem;
@@ -88,7 +110,7 @@ aside > p {
 hr {
     border: none;
     border-top: 3px double #333;
-    color: #333;
+    color: #333 !important;
     overflow: visible;
     text-align: center;
     height: 5px;
@@ -96,8 +118,118 @@ hr {
 
 li span {
     background: gold;
-}  
+}
 
+footer.index * {
+    color: blue;
+}
+
+p.outline {
+    outline: 1px solid blue
+}
+
+aside.contexto, dl.contexto {
+    border: 3px solid black;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+body > p.integrantes {
+    background-color: red;
+}
+.integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: space-between;
+}
+.integrantes li {
+    width: 300px;
+}
+
+div.d1 ~ div{
+    background-color: yellow;
+}
+div.d2 + div{
+    background-color: grey;
+}
+
+a:hover {
+    outline: 1px solid black;
+}
+
+div.d2::first-line {
+    background-color: red;
+}
+div.d2 {
+    height: 75px;
+}
+div.d1 {
+    display: inline-block;
+    width: 18em; height: 3em;
+}
+
+#lore1 {
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid red;
+}
+#lore2 {
+    padding: 10px;
+    height: 400px;
+    width: 685px;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+.overflow{
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    overflow: auto;
+}
+
+nav ul li.l1 {
+    float: left;
+    width: 20%;
+}
+nav ul li {
+    float: left;
+    width: 20%;
+    display: inline;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-inline: center;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 10vh;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #73787c;
+}
 /*Poner fondo verde
 [lang]
 {
