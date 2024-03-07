@@ -1,0 +1,21 @@
+.opciones{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #660202;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.opciones img {
+    width: 40px;
+    height: 40px;
+}
+
+.opciones div:nth-child(3) {
+    width: 50%;
+}
+
+.opciones a{
+    color: white;
+}
