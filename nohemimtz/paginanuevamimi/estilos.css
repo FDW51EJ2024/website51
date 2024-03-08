@@ -1,14 +1,15 @@
 
 nav ul{
-    background-color: blueviolet;
+    background-color: rgb(211, 191, 191);
 }
 
 nav ul li{
-    float:left;
-    width: 25%;
+   width: 20%;
+    justify-content: left;
 }
-.imgenca{
-    width:300px;
-    float:right;
-    margin-left:1em;
+article > img{
+    width: 300px;
+    float: right;
+    margin-left: 1em;
+
 }
