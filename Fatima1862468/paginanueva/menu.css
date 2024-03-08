@@ -12,10 +12,18 @@
     height: 40px;
 }
 
-.opciones div:nth-child(3) {
-    width: 50%;
-}
-
 .opciones a{
     color: white;
+}
+
+.opciones a[href$="html"]{
+    padding: 29px 0px 30px;
+}
+
+.opciones div:hover{
+    background-color: #7c0c0c;
+}
+
+.opciones a:hover{
+    background-color: #7c0c0c;
 }
