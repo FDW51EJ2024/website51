@@ -120,6 +120,7 @@ th{
 
 td{
     font-family: 'Open Sans', sans-serif ;
+    size: 12px;
 }
 
 tr:nth-child(odd){
