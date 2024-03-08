@@ -7,16 +7,25 @@
     color: green;
     font-size: 50px;
 }
+
+/*
 .uno{
     font-size: 25px;
 }
- 
+
 .dos{
     font-size: 25px;
 }
 
 .tres{
     font-size: 25px;
+}
+*/
+.uno, .dos, .tres {
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 20px; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea */
 }
 
 ul{
@@ -25,7 +34,7 @@ ul{
 }
 
 main ul li {
-    font-size: 25px; /* Tamaño de fuente para el contenido de los elementos <li> */
+    font-size: 25px;
 }
 
 dl dt{
@@ -36,28 +45,91 @@ dl dt{
 dl dd{
     font-size: 22px;
 }
-
+/*
 img {
-    width: 250px; /* Ancho deseado para la imagen */
-    height: auto; /* Altura se ajusta automáticamente para mantener la proporción */
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: auto;
+    max-width: 50%;
+}*/
+
+.imagenes-container {
+    display: flex; /* Utiliza flexbox para distribuir las imágenes horizontalmente */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
 }
+
+.imagenes-container img {
+    margin: 0 10px; /* Espacio horizontal entre las imágenes */
+    max-width: 20%; /* Ajusta las imágenes al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de las imágenes */
+}
+
 
 video {
-    width: 500px; /* Ancho deseado para la imagen */
-    height: auto; /* Altura se ajusta automáticamente para mantener la proporción */
+    width: 500px; 
+    height: auto; 
 }
-
+/*
 header nav ul li {
-    display: inline-block; /* Los elementos de la lista se muestran en línea */
-    margin-right: 10px; /* Espacio entre los elementos de la lista */
+    display: inline-block; 
+    margin-right: 10px; 
 }
 header nav ul li a {
-    color: black; /* Color del texto del enlace */
-    text-decoration: none; /* Quita el subrayado predeterminado */
-    border: 3px solid green; /* Borde de 1px de ancho y color negro */
+    color: black; 
+    text-decoration: none; 
+    border: 3px solid green; 
     border-radius: 5px;
-    padding: 5px 10px; /* Espacio interno alrededor del texto del enlace */
+    padding: 5px 10px; 
 }
+
+header{
+    background-color: #a5db9d;
+    padding: 20px;
+}
+
+header header nav ul li a :active{
+    background-color: #45a049;
+    cursor: pointer;
+}
+*/
+
+/* Estilos para el encabezado */
+header {
+    background-color: #a5db9d; /* Color de fondo del encabezado */
+    padding: 20px; /* Espacio interior del encabezado */
+    text-align: center;
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+/* Estilos para los elementos de la lista de navegación */
+nav ul li {
+    display: inline; /* Mostrar los elementos de la lista en línea */
+    justify-content: center;
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces en la lista de navegación */
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    color: black; /* Color de texto predeterminado */
+    border: 3px solid green;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Estilos para el estado :active de los enlaces */
+nav ul li a:active {
+    color: #020302; /* Cambia el color de texto cuando el enlace está activo (presionado) */
+    background-color: #45a049 ;
+}
+
 
 .h2{
     color: green;
@@ -70,7 +142,10 @@ header nav ul li a {
 }
 
 p {
+    display: flex;
+    justify-content: center;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif
 }
 
 .uno1{
@@ -106,16 +181,16 @@ td {
 }
 
 .arriba{
-    color: black; /* Color del texto del enlace */
-    text-decoration: none; /* Quita el subrayado predeterminado */
-    border: 3px solid green; /* Borde de 1px de ancho y color negro */
+    color: black; 
+    text-decoration: none; 
+    border: 3px solid green; 
     border-radius: 5px;
-    padding: 5px 10px; /* Espacio interno alrededor del texto del enlace */
+    padding: 5px 10px; 
 }
 
 hr {
-    border: none; /* Elimina el borde predeterminado */
-    border-top: 1px solid green; /* Establece el grosor y el color del borde superior */
+    border: none; 
+    border-top: 1px solid green; 
 }
 
 .pequeño{
