@@ -37,10 +37,13 @@ article p,article a{
 aside {
     grid-area: a;
     background-color:#b6b6b6 ;
-    font-size: 24px;
+    font-size: 40px;
+}
+li{
+    line-height: 60px;
 }
 footer {
     grid-area: f;
-    background-color:#d3d3d3 ;
+    background-color:#c4c3c3 ;
     color: rgb(46, 68, 14);
 }

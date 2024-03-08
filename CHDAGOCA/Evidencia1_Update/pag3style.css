@@ -24,4 +24,6 @@ section {
 }
 footer {
     grid-area: f;
+    background-color:#c4c3c3 ;
+    color: rgb(46, 68, 14);
 }
