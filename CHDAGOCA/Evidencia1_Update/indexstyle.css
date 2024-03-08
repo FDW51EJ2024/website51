@@ -23,9 +23,17 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: left;
-
-    
 }
+article h2{
+    font-size: 64px;
+    color: darkorange;
+    -webkit-text-stroke: 2px black;
+}
+article p,article a{
+    display:inline;
+    font-size: 40px;
+}
+
 aside {
     grid-area: a;
     background-color:#b6b6b6 ;
