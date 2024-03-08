@@ -1,0 +1,132 @@
+.verde{
+    color: green;
+    font-size: 80px;
+}
+
+.verdechico{
+    color: green;
+    font-size: 50px;
+}
+.uno{
+    font-size: 25px;
+}
+ 
+.dos{
+    font-size: 25px;
+}
+
+.tres{
+    font-size: 25px;
+}
+
+ul{
+    font-size: 25x;
+    color: black;
+}
+
+main ul li {
+    font-size: 25px; /* Tamaño de fuente para el contenido de los elementos <li> */
+}
+
+dl dt{
+    font-size: 30px;
+    color: green;
+}
+
+dl dd{
+    font-size: 22px;
+}
+
+img {
+    width: 250px; /* Ancho deseado para la imagen */
+    height: auto; /* Altura se ajusta automáticamente para mantener la proporción */
+}
+
+video {
+    width: 500px; /* Ancho deseado para la imagen */
+    height: auto; /* Altura se ajusta automáticamente para mantener la proporción */
+}
+
+header nav ul li {
+    display: inline-block; /* Los elementos de la lista se muestran en línea */
+    margin-right: 10px; /* Espacio entre los elementos de la lista */
+}
+header nav ul li a {
+    color: black; /* Color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    border: 3px solid green; /* Borde de 1px de ancho y color negro */
+    border-radius: 5px;
+    padding: 5px 10px; /* Espacio interno alrededor del texto del enlace */
+}
+
+.h2{
+    color: green;
+    font-size: 30px;
+}
+
+.H2{
+    color: green;
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.uno1{
+    color: green;
+    font-size: 25px;
+}
+
+.dos2{
+    color: green;
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+td {
+    border: 1px solid #ddd;
+}
+
+.arriba{
+    color: black; /* Color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    border: 3px solid green; /* Borde de 1px de ancho y color negro */
+    border-radius: 5px;
+    padding: 5px 10px; /* Espacio interno alrededor del texto del enlace */
+}
+
+hr {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 1px solid green; /* Establece el grosor y el color del borde superior */
+}
+
+.pequeño{
+    font-size: 15px;
+}
+
+.croquetas{
+    color: green;
+    font-size: 30px;
+}
+
+main ol li{
+    font-size: 25px;
+}
