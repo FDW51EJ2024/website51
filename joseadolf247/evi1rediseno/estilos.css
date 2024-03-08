@@ -25,26 +25,26 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
-    padding: 10px;
-    width: 150px;
+    margin: 100px;
 }
 
 nav li:hover{
     background-color: red;
+    padding: 50px;
 }
 
 main{
     float: left;
-    width: 80%;
+    width: 78%;
     min-height: 500px;
     padding: 10px;
+    text-align: justify;
 }
 
 section{
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid orange;
 }
 
 section h3{
@@ -59,7 +59,7 @@ section img{
     object-fit: cover;
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding: 10px;
     float: left;
 }
 
