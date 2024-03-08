@@ -20,6 +20,7 @@ h1 {
 }
 section {
     grid-area: b;
+    background-color:#d3d3d3 ;
 }
 footer {
     grid-area: f;
