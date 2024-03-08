@@ -1,0 +1,35 @@
+body {
+    background-color: #BDB76B;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "header header "
+                         " main aside "
+                         " footer footer "
+}
+
+header {
+    grid-area: header;
+    background-color: #808000;
+    border: solid 2px black;
+}
+
+main {
+    grid-area: main;
+    background-color: #8FBC8B;
+    border: solid 2px black;
+}
+
+aside {
+    grid-area: aside;
+    background-color: bisque;
+    border: solid 2px black;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #5F9EA0;
+    color: darkblue;
+    border: solid 2px black;
+}
+
+
