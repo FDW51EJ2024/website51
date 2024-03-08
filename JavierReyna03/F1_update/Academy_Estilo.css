@@ -1,0 +1,161 @@
+/* AREA DE GRID*/
+.principal {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: "h h"
+                         "m a"
+                         "f f";
+margin: 0;
+background-color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+background-color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    grid-area: h;
+
+}
+
+main {
+    grid-area: m;
+}
+
+aside {
+    grid-area: a;
+    background-color: #47C7FC ;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    height: 800px;
+}
+
+footer {
+    grid-area: f;
+    background-color: grey;
+}
+
+/* AREA DE NAV */
+header {
+    background-color: #FF8000	;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration:underline;
+}
+
+/* ESTILO DEL TEXTO*/
+
+.txt {
+    color: black;
+    text-align: center;
+}
+
+.textoacom {
+    display: block;
+    float: left;
+    padding-left: 35px;
+    justify-content: space-around;
+    padding-right: 90px;
+}
+
+span {
+    color: red;
+}
+
+p {
+    padding-left: 30px;
+}
+
+.lado {
+    float: initial;
+}
+
+.subh2 {
+    color: black;
+    text-align: justify;
+    padding: 20px;
+}
+
+/* ESTILO BARRA HR */
+
+hr {
+    height: 10px;
+    background-color: #FF8000;
+}
+
+/* ESTILO DE IMAGENES */
+.acomodo {
+    display: flex;
+    justify-self: center;
+    margin-left: 32.5%;
+    width: 35%;
+    height: auto;
+}
+
+.imgferr {
+    display: inline;
+    justify-self: center;
+    margin-left: 5.75%;
+    width: 30%;
+    height: auto;
+    size: 10px;
+    float: left;
+    border-radius: 15px;
+}
+
+
+
+
+.as nav ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+.as nav li {
+    display:list-item;
+    margin-right: 20px;
+    padding-left: 15px;
+}
+
+.as nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.as nav a:hover {
+    text-decoration:underline;
+}
+
+
+.cita {color:blue;
+    font-size:1.5em;
+    height: auto;
+    padding:10px;
+    }
