@@ -1,0 +1,9 @@
+
+nav ul{
+    background-color: blueviolet;
+}
+
+nav ul li{
+    float:left;
+    width: 25%;
+}
