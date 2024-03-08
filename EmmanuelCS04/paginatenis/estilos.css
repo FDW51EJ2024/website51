@@ -1,0 +1,83 @@
+h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.logo1{
+        width: 500px;
+        height: 300px;
+}
+
+.logop{
+    width: 300;
+    height: 250;
+}
+
+   body{   
+    margin: 0%;
+    min-height: 100vh;
+    background-image: url(imagenes/variedad\ tenis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 
+
+  body:before {  
+    content: "";
+    width: 100%;
+    height: 300%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+    background: linear-gradient(90deg, rgb(81, 155, 234), #c3a2e5);
+    opacity: 0.7;
+    z-index: -1;
+}  
+
+body{
+    margin: 3px 15px;
+}
+
+a{
+    color: black;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:hover{
+    background-color: aquamarine;
+}
+
+.img1, .logo1, .logop{
+    display: block;
+    margin: auto;
+}
+
+.logo3{
+    float: right;
+}
+
+.detenerfloat{
+    clear: both;
+}
+
+.logo3{
+    width: 500px;
+    height: 400px;
+}
