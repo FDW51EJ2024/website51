@@ -22,6 +22,9 @@ section {
     grid-area: b;
     background-color:#d3d3d3 ;
 }
+section p{
+    font-size: 32px;
+}
 footer {
     grid-area: f;
     background-color:#c4c3c3 ;
