@@ -1,0 +1,228 @@
+
+nav {
+    display: flex;
+    justify-content: center; 
+    background-color: #D9A05B; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 150px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* COLOR DEL TEXTO */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background-color: #ddb88b; /* CAMBIA COLOR AL PASAR RATON */
+    color: rgb(255, 255, 255);
+}
+
+/* CENTRADO DE IMAGENES */
+#gatocomiendo {
+
+        display: block; /* Asegura que la imagen se comporte como un bloque */
+        margin-left: auto; /* Centra la imagen horizontalmente */
+        margin-right: auto; /* Centra la imagen horizontalmente */
+        width: 500px; /* Anchura de la imagen alimentotoxico */
+}
+    
+
+#gatocomiendocroquetas {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px; 
+}
+
+#alimentotoxico {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+#gatotomandoagua {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+#gatoesfinje {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 700px; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#halimentacion {
+    text-align: center; /* CENTRA TEXTO A MITAD DE PAGINA */
+    color: #629772;
+}
+
+#hinicio {
+    text-align: center; /* CENTRA TEXTO A MITAD DE PAGINA */
+    color: #a57d4c;
+}
+p {
+    color: rgb(60, 71, 71);
+}
+
+
+#hrazas {
+    text-align: center; /* CENTRA TEXTO A MITAD DE PAGINA */
+    color: #d48387;
+}
+
+#hcuidados {
+    text-align: center; 
+    color: #6ea8b9;
+}
+
+#hcomportamientos {
+    text-align: center; /* CENTRA TEXTO A MITAD DE PAGINA */
+    color: #9b83d4;
+}
+#texto1{
+    text-align: center; 
+}
+#texto2{
+    text-align: center; 
+}
+
+#tabla{
+    text-align: center; 
+}
+#gatolamiendose {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+#siames {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px; 
+}
+
+#mainecoon {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px; 
+}
+#persa {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px; 
+}
+
+#bengali {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px; 
+}
+
+#sphynx {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px; 
+}
+
+#ragdoll {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px; 
+}
+
+#videogatito {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 900px; 
+}
+
+#videogato {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 900px; 
+}
+
+#gatoaseo {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+#gatoarenero {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 650px; 
+}
+#gatoveterinario {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+#gatojugando {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+#gatoplaca {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif ;
+    font-size: 12px;
+    color: #816b4d;
+}
+
+th, td {
+    padding: 5px;
+    border-bottom: 0.5px solid #aa998b;
+    text-align: center;
+}
+
+th {
+    background-color: #f3ebe3;
+}
+
+

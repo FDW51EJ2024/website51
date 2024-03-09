@@ -1,0 +1,60 @@
+
+h1 {
+    color:blue;
+    background-color:yellow;
+}
+
+h2 {
+    color:blue;
+    background-color: yellow;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+
+.Inicio {
+    background-color: yellow;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav ul {
+    background-color:yellow;
+    list-style-type: none;
+    width: 100%;
+    text-align:left;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+
+img {
+    display: grid;
+}
+
+article > img {
+    width: 300px;
+    float: right;
+    margin-left: 1em;
+}
+
+#LIDERAZGO {
+    background-color: yellow;
+}

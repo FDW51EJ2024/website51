@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscripción!</title>
+    <link rel="stylesheet" href="pag4style.css">
+</head>
+<body>
+    <article class="regindex">
+        <a href="index.html"><img src="https://cdn.pixabay.com/photo/2023/09/04/17/04/saturn-8233220_1280.png" alt="" width="300" height="150"></a>
+    </article>
+
+    <h1>
+        Somos ESPACIALES
+    </h1>
+
+    <section>
+        <h2>Introduce tus datos</h2>
+        <label for="select">Que interes más grande tienes?</label>
+        <br>
+        <select name="select" id="select">
+            <option value="option1">Espacio</option>
+            <option value="option2">Astros</option>
+            <option value="option3">Planetas</option>
+            <option value="option3">Estrellas</option>
+        </select>
+        <br>
+        <br>
+        <label for="selectmultiple">Quienes te asesoraron al llegar?</label>
+        <br>
+        <select name="Selectd" id="selectd" multiple>
+            <option value="option1">Steven Graham</option>
+            <option value="option2">Edward Elric</option>
+            <option value="option3">Ginny Salazar</option>
+        </select>
+        <br>
+        <br>
+        <label for="Select Optgroup">Tienes algun estudio previo sobre el espacio?</label>
+        <select name="Selectopt" id="selectopt">
+        <optgroup label="No tengo estudios">
+            <option value="option1">Tengo solo interés</option>
+            <option value="option2">He estudiado por mi cuenta sobre el espacio</option>
+            <option value="option3">Tengo amplios estudios no oficiales sobre el espacio.</option>
+        </optgroup>
+        <optgroup label="Tengo estudios">
+            <option value="option1">Tengo interes naciente, mis estudios no son vinculados a la astronomía.</option>
+            <option value="option2">Mis estudios son sobre ciencias pero no vinculados a la astronomía.</option>
+            <option value="option3">Tengo estudios sobre el tema de astronomía y tengo un gran interés por saber más.</option>
+        </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="textarea">Cuentanos sobre ti y lo que te llama la atención sobre el espacio.</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="30" rows="10">
+            Somos Espaciales!
+        </textarea>
+        <br>
+        <br>
+        <label for="OpcionesD">Refresco Favorito? (Para tomar en cuenta si alguna vez vienes a una salida grupal)</label>
+        <datalist id="OpcionesD">
+            <option value="Coca Cola">En lata</option>
+            <option value="Pepsi">En lata</option>
+            <option value="Otro">A discutir por correo.</option>
+        </datalist>
+        <input list="OpcionesD" type="text" name="text" id="text">
+        <br>
+        <br>
+        <label for="color">Cual es tu color favorito?</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <br>
+        <label for="date">Cuando te enteraste de esta comunidad?</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <br>
+        <label for="email">Cual es tu email??</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="file">Algún trabajo que nos quieras compartir? (Opcional)</label>
+        <br>
+        <input type="file" name="file" id="file">
+        <br>
+        <br>
+        <label for="select multiple puntos">Cual de los siguiente planetas nombrados es más grande?</label>
+        <form action="">
+            <input type="radio" name="Options" value="Option1">El sol
+            <input type="radio" name="Options" value="Option2">Jupiter
+            <input type="radio" name="Options" value="Option3">La tierra
+        </form>
+        <br>
+        <label for="tel">Cual es tu telefono?</label>
+        <input type="tel" name="tel" id="tel">
+        <br>
+        <br>
+        <p style="font-size: larger;"><i>Listo? <input type="submit" value="submit"></i></p>
+    </section>
+    <footer>
+        Que al igual que las estrellas, nuestra luz siga siendo visible por siglos a pesar de que ya no brillemos.
+    </footer>
+</body>
+</html>
