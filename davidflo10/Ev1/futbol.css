@@ -118,3 +118,42 @@ h2{
     padding: 5px; /* Espacio alrededor del texto */
   }
 
+/*--------------------------------------------------------------------------*/
+
+/*Hoja de futbo_2, Goleadores Historicos*/
+
+.diseño-nomb-fotos {
+    display: grid;
+    grid-template-columns: max-content max-content; 
+    gap: 10px; 
+    align-items: center; 
+  }
+
+  .diseño-nomb-fotos img {
+    max-width: 100%;
+    border-radius: 10px; 
+  }
+
+  .diseño-nomb-fotos p {
+    margin: 0; 
+  }
+
+  .diseño-nomb-fotos .texto {
+    text-align: left; 
+  }
+
+  .resaltador {
+    background-color: #bb4747;
+    font-weight: bold;
+    color:#131111 ; 
+  }
+
+  /*Tabla*/
+  .resaltador2{
+    background-color: #bb4747 ;
+  }
+
+  table{
+    background-color: #bb4747;
+  }
+/*-------------------------------------------------------------------*/
