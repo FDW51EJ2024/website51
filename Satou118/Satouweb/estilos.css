@@ -8,6 +8,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: center;
     grid-area: header;
     background-color: #808000;
     border: solid 2px black;
@@ -27,9 +29,26 @@ aside {
 
 footer {
     grid-area: footer;
-    background-color: #5F9EA0;
-    color: darkblue;
+    background-color: #8B4513;
+    color: black;
     border: solid 2px black;
 }
 
+nav ul {
+    list-style-type: square;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    border-bottom: none;
 
+}
+
+nav ul li a{
+    color: #8B4513;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: 	#FF0000;
+    text-decoration: solid;
+}
