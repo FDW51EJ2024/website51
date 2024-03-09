@@ -178,13 +178,12 @@ header {
     padding: 20px; /* Espacio interior del encabezado */
     text-align: center;
 }
-
+/*
 .header2{
-    background-color: #a5db9d; /* Color de fondo del encabezado */
-    padding: 20px; /* Espacio interior del encabezado */
-    /*
-    text-align: center;*/
-}
+    background-color: #a5db9d; /* Color de fondo del encabezado 
+    padding: 20px; /* Espacio interior del encabezado 
+    text-align: center;
+}*/
 
 /* Estilos para la lista de navegación */
 nav ul {
