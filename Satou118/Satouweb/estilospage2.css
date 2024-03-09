@@ -9,6 +9,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: center;
     grid-area: header;
     background-color: #8B4513;
     border: solid 2px black;
