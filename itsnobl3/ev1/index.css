@@ -1,0 +1,111 @@
+header {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+header h1 {
+    color: rgb(1, 36, 131);
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.texto {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.texto p {
+    text-align: justify;
+}
+
+.texto h4 {
+    color: rgb(15, 74, 78);
+}
+
+.texto ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(105, 99, 99);
+    font-family: "Montserrat", sans-serif;
+}
+
+nav li:hover {
+    background-color: whitesmoke;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 19px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav li {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    padding: 25px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.imagenes {
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+}
+
+
+button {
+    background-color: rgb(170, 170, 170);
+}
+
+footer {
+    background-color: white;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+    input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #415ebe;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" type="text/css" href="./index.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pediatría</title>
+        <link rel="shortcut icon" href="./imagenes/imagen18.jpeg">
+    </head>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Medicina</a></li>
+                <li><a href="./pediatria.html">Pediatría</a></li>
+                <li><a href="./cardiologia.html">Cardiología</a></li>
+                <li><a href="./dermatologia.html">Dermatología</a></li>
+                <li><a href="./odontologia.html">Odontología</a></li>
+            </ul>
+        </nav>
+        <h1>Pediatría</h1>
+        <p>La pediatría es la rama de la medicina que se especializa en el cuidado de la salud de los niños, desde el nacimiento hasta la 
+            adolescencia.</p>
+        <img class="imagenes" src="./imagenes/imagen18.jpeg" alt="imagen18">
+    </header>
+    <body>
+        <br>
+        <div class="texto">
+            <h4>Educación y formación</h4>
+            <p>Los pediatras son médicos que han completado la educación médica básica y luego han seguido una formación adicional en pediatría.
+                 Esta formación incluye una residencia en pediatría, durante la cual adquieren experiencia en el cuidado de niños de todas las 
+                 edades, desde recién nacidos hasta adolescentes.</p>
+        </div>
+        <br>
+        <div class="texto">
+            <h4>Áreas de enfoque</h4>
+            <p>La pediatría abarca una amplia gama de temas relacionados con la salud infantil, incluyendo el crecimiento y desarrollo, la 
+                nutrición, las enfermedades infecciosas, las enfermedades crónicas, la salud mental, la prevención y la atención de lesiones, 
+                entre otros.</p>
+        </div>
+        <br>
+        <div class="texto">
+            <h4>Atención preventiva</h4>
+            <p>Los pediatras realizan exámenes de rutina, controles de crecimiento y desarrollo, y administran vacunas para prevenir 
+                enfermedades. También brindan orientación a los padres sobre la crianza de los niños y promueven hábitos de vida saludables 
+                desde una edad temprana.</p>
+        </div>
+        <br>
+        <div class="texto">
+            <h4>Diagnóstico y tratamiento</h4>
+            <p>Los pediatras diagnostican y tratan una amplia variedad de enfermedades y trastornos que afectan a los niños, desde enfermedades 
+                comunes como el resfriado y la gripe, hasta enfermedades crónicas como el asma y la diabetes. También proporcionan atención 
+                especializada para condiciones pediátricas específicas, como trastornos del desarrollo, trastornos genéticos y enfermedades 
+                raras.</p>
+        </div>
+        <br>
+        <div class="texto">
+            <h4>Cuidado integral</h4>
+            <p>Los pediatras trabajan en colaboración con otros profesionales de la salud, como enfermeras pediátricas, trabajadores sociales, 
+                terapeutas ocupacionales y fisioterapeutas, para brindar una atención integral y coordinada a los niños y sus familias.</p>
+        </div>
+        <br>
+        <div class="texto">
+            <h4>Enfoque en el bienestar infantil</h4>
+            <p>Además de tratar enfermedades, los pediatras se centran en el bienestar global de los niños, incluyendo su salud física, mental 
+                y emocional. Promueven un entorno seguro y saludable para el crecimiento y desarrollo óptimos de los niños.</p>
+        </div>
+        <br>
+        <br>
+        <div class="formulario">
+            <h3>Formulario de Consulta Pediátrica</h3>
+
+            <form method="post">
+                <label for="nombre_nino">Nombre del Niño:</label>
+                <input type="text" id="nombre_nino" name="nombre_nino">
+
+                <label for="edad_nino">Edad del Niño:</label>
+                <input type="number" id="edad_nino" name="edad_nino">
+
+                <label for="genero_nino">Género del Niño:</label>
+                <select id="genero_nino" name="genero_nino" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="nombre_padre">Nombre del Padre/Tutor:</label>
+                <input type="text" id="nombre_padre" name="nombre_padre">
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo">
+
+                <label for="telefono">Teléfono de Contacto:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="motivo_consulta">Motivo de la Consulta:</label>
+                <textarea id="motivo_consulta" name="motivo_consulta" rows="4"></textarea>
+
+                <label for="comentarios">Comentarios Adicionales:</label>
+                <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </div>
+        <br>
+        <br>
+    </body>
+    <footer>
+        <br>
+        <p>Autor: Roberto Gonzalez Herrera</p>
+        <br>
+    </footer>
+</html>
