@@ -17,108 +17,89 @@
     </h1>
 
     <section>
-        <p>url: <input type="url" name="url" id="url"></p>
-        <p>week: <input type="week" name="week" id="week"></p>
-        <p>button: <input type="button" value="button"></p>
-        <p>submit: <input type="submit" value="submit"></p>
-        <p>reset: <input type="reset" value="reset"></p>
-        <label for="select">Select</label>
+        <h2>Introduce tus datos</h2>
+        <label for="select">Que interes más grande tienes?</label>
+        <br>
         <select name="select" id="select">
-            <option value="option1">Opcion1</option>
-            <option value="option2">Opcion2</option>
-            <option value="option3">Opcion3</option>
+            <option value="option1">Espacio</option>
+            <option value="option2">Astros</option>
+            <option value="option3">Planetas</option>
+            <option value="option3">Estrellas</option>
         </select>
         <br>
         <br>
-        <label for="selectmultiple">Select Multiple</label>
+        <label for="selectmultiple">Quienes te asesoraron al llegar?</label>
+        <br>
         <select name="Selectd" id="selectd" multiple>
-            <option value="option1">Opcion1</option>
-            <option value="option2">Opcion2</option>
-            <option value="option3">Opcion3</option>
+            <option value="option1">Steven Graham</option>
+            <option value="option2">Edward Elric</option>
+            <option value="option3">Ginny Salazar</option>
         </select>
         <br>
-        <label for="Select Optgroup">Select Optgroup</label>
+        <br>
+        <label for="Select Optgroup">Tienes algun estudio previo sobre el espacio?</label>
         <select name="Selectopt" id="selectopt">
-        <optgroup label="Las Opciones">
-            <option value="option1">Opcion1</option>
-            <option value="option2">Opcion2</option>
-            <option value="option3">Opcion3</option>
+        <optgroup label="No tengo estudios">
+            <option value="option1">Tengo solo interés</option>
+            <option value="option2">He estudiado por mi cuenta sobre el espacio</option>
+            <option value="option3">Tengo amplios estudios no oficiales sobre el espacio.</option>
         </optgroup>
-        <optgroup label="Las Otras Opciones">
-            <option value="option1">Opcion1</option>
-            <option value="option2">Opcion2</option>
-            <option value="option3">Opcion3</option>
+        <optgroup label="Tengo estudios">
+            <option value="option1">Tengo interes naciente, mis estudios no son vinculados a la astronomía.</option>
+            <option value="option2">Mis estudios son sobre ciencias pero no vinculados a la astronomía.</option>
+            <option value="option3">Tengo estudios sobre el tema de astronomía y tengo un gran interés por saber más.</option>
         </optgroup>
         </select>
         <br>
-        <label for="textarea">textarea</label>
+        <br>
+        <label for="textarea">Cuentanos sobre ti y lo que te llama la atención sobre el espacio.</label>
+        <br>
         <textarea name="textarea" id="textarea" cols="30" rows="10">
-            Que viva FACPYA!
+            Somos Espaciales!
         </textarea>
         <br>
-        <label for="OpcionesD">Elige Opcion:</label>
+        <br>
+        <label for="OpcionesD">Refresco Favorito? (Para tomar en cuenta si alguna vez vienes a una salida grupal)</label>
         <datalist id="OpcionesD">
-            <option value="option1">Opcion1</option>
-            <option value="option2">Opcion2</option>
-            <option value="option3">Opcion3</option>
+            <option value="Coca Cola">En lata</option>
+            <option value="Pepsi">En lata</option>
+            <option value="Otro">A discutir por correo.</option>
         </datalist>
         <input list="OpcionesD" type="text" name="text" id="text">
         <br>
-        <label for="checkbox">checkbox</label>
-        <input type="checkbox" name="checkbox" id="checkbox">
         <br>
-        <label for="color">color</label>
+        <label for="color">Cual es tu color favorito?</label>
         <input type="color" name="color" id="color">
         <br>
-        <label for="date">date</label>
+        <br>
+        <label for="date">Cuando te enteraste de esta comunidad?</label>
         <input type="date" name="date" id="date">
         <br>
-        <label for="datetime">datetime</label>
-        <input type="datetime" name="datetime" id="datetime">
         <br>
-        <label for="datetimelocal">datetimelocal</label>
-        <input type="datetime-local" name="datetimelocal" id="datetimelocal">
-        <br>
-        <label for="email">email</label>
+        <label for="email">Cual es tu email??</label>
         <input type="email" name="email" id="email">
         <br>
-        <label for="file">file</label>
+        <br>
+        <label for="file">Algún trabajo que nos quieras compartir? (Opcional)</label>
+        <br>
         <input type="file" name="file" id="file">
         <br>
-        <label for="hidden">hidden</label>
-        <input type="hidden" name="hidden">
         <br>
-        <label for="submit image button">submit image button</label>
-        <input type="image" name="submit image button" src="https://jekyllcodex.org/uploads/grumpycat.jpg" alt="Submit"/>
-        <br>
-        <label for="month">month</label>
-        <input type="month" name="month" id="month">
-        <br>
-        <label for="number">number</label>
-        <input type="number" name="number" id="number">
-        <br>
-        <label for="password">password</label>
-        <input type="password" name="password" id="password">
-        <br>
-        <label for="select multiple puntos">select multiple puntos</label>
+        <label for="select multiple puntos">Cual de los siguiente planetas nombrados es más grande?</label>
         <form action="">
-            <input type="radio" name="Options" value="Option1">Opcion 1
-            <input type="radio" name="Options" value="Option2">Opcion 2
-            <input type="radio" name="Options" value="Option3">Opcion 3
+            <input type="radio" name="Options" value="Option1">El sol
+            <input type="radio" name="Options" value="Option2">Jupiter
+            <input type="radio" name="Options" value="Option3">La tierra
         </form>
         <br>
-        <label for="range">range</label>
-        <input type="range" name="range" id="range">
-        <br>
-        <label for="search">search</label>
-        <input type="search" name="search" id="search">
-        <br>
-        <label for="tel">tel</label>
+        <label for="tel">Cual es tu telefono?</label>
         <input type="tel" name="tel" id="tel">
         <br>
-        <label for="time">time</label>
-        <input type="time" name="time" id="time">
+        <br>
+        <p style="font-size: larger;"><i>Listo? <input type="submit" value="submit"></i></p>
     </section>
-
+    <footer>
+        Que al igual que las estrellas, nuestra luz siga siendo visible por siglos a pesar de que ya no brillemos.
+    </footer>
 </body>
 </html>
