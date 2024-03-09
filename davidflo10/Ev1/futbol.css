@@ -6,8 +6,8 @@ body{
 }
 
 header {
-    background-color: #bb4747; /* Color de fondo del encabezado */
-    padding: 20px; /* Espaciado interior del encabezado */
+    background-color: #bb4747; 
+    padding: 20px; 
 }
 
 h1 i{
@@ -18,34 +18,34 @@ h1 i{
 ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Para centrar la lista horizontalmente */
-    background-color:  #ff1e00; /* Color de fondo para la lista */
-    border-radius: 5px; /* Añade bordes redondeados */
-    padding: 10px; /* Espacio interno de la lista */
-    display: flex; /* Cambia el comportamiento del contenedor a flexbox */
-    justify-content: space-around; /* Centra los elementos horizontalmente */
+    text-align: center; 
+    background-color:  #ff1e00; 
+    border-radius: 5px; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-around; 
 }
 
 /* Estilos para los elementos de la lista */
 li {
-    margin: 10px; /* Agrega un espacio entre los elementos */
-    display: inline; /* Para que los elementos de la lista se muestren en línea */
+    margin: 10px; 
+    display: inline; 
 }
 
 /* Estilos para los enlaces */
 a {
     text-decoration: none;
     color:  #ff1e00;
-    padding: 8px 16px; /* Añade espacio interno alrededor del texto del enlace */
-    border: 2px solid  #ff1e00; /* Agrega un borde alrededor del enlace */
-    border-radius: 5px; /* Añade bordes redondeados al borde */
+    padding: 8px 16px; 
+    border: 2px solid  #ff1e00; 
+    border-radius: 5px; 
 }
 
 /* Estilos para los enlaces cuando se pasa el ratón por encima */
 a:hover {
     text-decoration: underline;
-    background-color: #ff1e00; /* Cambia el color de fondo cuando se pasa el ratón por encima */
-    color:  #131111; /* Cambia el color del texto cuando se pasa el ratón por encima */
+    background-color: #ff1e00; 
+    color:  #131111; 
 }
 
 article aside{
@@ -56,30 +56,65 @@ article aside{
 
 .contenedor-imagen-futbol {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 300px; /* Altura del contenedor, ajusta según sea necesario */
+    justify-content: center; 
+    align-items: center; 
+    height: 300px; 
   }
 
   .contenedor-imagen-futbol img {
-    width: 45%; /* Ancho de las imágenes */
-    border-radius: 20px; /* Borde redondo */
+    width: 45%; 
+    border-radius: 20px; 
   }
 
   .contenedor-imagen-futbol img {
-    max-width: 100%; /* Para asegurar que la imagen se ajuste correctamente */
-    max-height: 100%; /* Para asegurar que la imagen se ajuste correctamente */
+    max-width: 100%; 
+    max-height: 100%; 
   }
 
 .contenedor-imagen {
     display: flex;
-    justify-content: space-between; /* Distribuye el espacio entre las imágenes */
-    margin: 10px; /* Espacio entre el contenedor de imágenes y los bordes del navegador */
+    justify-content: space-between; 
+    margin: 10px; 
   }
 
   .contenedor-imagen img {
-    width: 45%; /* Ancho de las imágenes */
-    border-radius: 20px; /* Borde redondo */
+    width: 45%;
+    border-radius: 20px; 
   }
 
 /*---------------------------------------------------------------------------------------------------*/
+
+/*Hoja de futbol_1, LOS MEJORES FUTBOLISTAS*/
+
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: #bb4747;
+}
+
+/*diseño de fotos*/
+
+.fotos-texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+  }
+
+  .fotos-texto > div {
+    flex: 1;
+    text-align: center;
+  }
+
+  .fotos-texto img {
+    max-width: 100%;
+    border-radius: 10px; /* Borde redondo */
+  }
+
+  .fotos-texto p {
+    background-color:#bb4747; /* Color de fondo para los párrafos */
+    border-radius: 10px; /* Borde redondo */
+    padding: 5px; /* Espacio alrededor del texto */
+  }
+

@@ -1,0 +1,15 @@
+.custom-image-logo {
+    width: 50%; /* Hace que las imágenes sean responsive y ocupen el 100% del contenedor */
+    max-width: 165px; /* Ancho máximo según tus preferencias */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: 10px 0; /* Ajusta el espacio alrededor de la imagen según tus preferencias */
+}
+figure {
+    max-width: 300px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra la figura horizontalmente */
+}
+
+figcaption {
+    text-align: center; /* Centra el texto dentro del pie de página */
+    margin-top: 10px; /* Ajusta el espacio superior según tus preferencias */
+}
