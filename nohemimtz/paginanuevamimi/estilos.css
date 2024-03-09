@@ -8,30 +8,15 @@ article> img{
     width: 600px;
     height: 150px;
 }
+
 body{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-template-rows: auto 100px;
-    grid-gap: 1em;
-    justify-content: space-around;
+   background-color: darksalmon;
 }
-body{
-   background-color: antiquewhite;
-}
+
 .contenedor{
     display: flex;
     justify-content: space-around;
 }
-p2{
-    height: 200px;
-    width: 200px;
-    background-color: burlywood;
-    border: 1px solid black;
-    overflow: auto;
-
-}
-.contenedor2{
+.textos{
     display: flex;
-    outline: 1px solid mediumvioletred;
-    
 }
