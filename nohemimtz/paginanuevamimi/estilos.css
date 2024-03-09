@@ -1,16 +1,31 @@
 
-nav ul{
-    background-color: rgb(211, 191, 191);
-    
+nav ul li{
+    float: left;
+    width: 25%;
 }
 
-nav ul li{
-    width: 25%;
-    float: left;
-   display: flex;
-   justify-content: space-around;
-}
 article> img{
     width: 600px;
     height: 150px;
+}
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto 100px;
+    grid-gap: 1em;
+    justify-content: space-around;
+}
+body{
+   background-color: antiquewhite;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+p2{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    border: 1px solid black;
+
 }
