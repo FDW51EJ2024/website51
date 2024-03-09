@@ -27,5 +27,11 @@ p2{
     width: 200px;
     background-color: burlywood;
     border: 1px solid black;
+    overflow: auto;
 
+}
+.contenedor2{
+    display: flex;
+    outline: 1px solid mediumvioletred;
+    
 }
