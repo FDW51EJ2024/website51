@@ -1,6 +1,9 @@
 .verde{
     color: green;
     font-size: 80px;
+    margin-bottom: 25px; /* Ajusta el espacio entre el elemento con la clase "verde" y el siguiente elemento */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .verdechico{
@@ -21,30 +24,46 @@
     font-size: 25px;
 }
 */
-.uno, .dos, .tres {
+.uno, .dos, .tres, .cuatro {
     margin-bottom: 20px; /* Espacio entre párrafos */
-    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
     font-size: 20px; /* Tamaño de fuente */
     line-height: 1.5; /* Altura de línea */
 }
 
+p {
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea */
+    margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-top: 25px; /* Ajusta el margen superior del párrafo */
+}
+
 ul{
-    font-size: 25x;
+    font-size: 20x;
     color: black;
 }
 
 main ul li {
-    font-size: 25px;
+    font-size: 20px;
 }
 
+/*
+ol li{
+    font-size: 20px;
+}
+*/
+
 dl dt{
-    font-size: 30px;
+    font-size: 20px;
     color: green;
 }
 
 dl dd{
-    font-size: 22px;
+    font-size: 20px;
 }
+
 /*
 img {
     display: flex;
@@ -66,11 +85,63 @@ img {
     height: auto; /* Mantiene la relación de aspecto de las imágenes */
 }
 
-
+/*
 video {
     width: 500px; 
     height: auto; 
 }
+*/
+
+.video1 {
+    display: block; /* Asegura que el video se comporte como un bloque */
+    margin: auto; /* Centra horizontalmente */
+}
+
+.video1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el video 1 */
+    margin-bottom: 60px; /* Espacio entre el video 1 y la lista */
+    width: 500px;
+    height: auto;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 60vh; /* Ajusta la altura del contenedor al 100% del viewport */
+}
+
+.video1 {
+    max-width: 100%; /* Ajusta el ancho del video para que no desborde */
+    max-height: 100%; /* Ajusta la altura del video para que no desborde */
+}
+
+.video-container {
+    float: right; /* Hace que el contenedor de video se flote a la derecha */
+    margin-left: 50px; /* Agrega un espacio entre el video y la lista */
+}
+
+ul {
+    flex: 1; /* La lista ocupa todo el espacio disponible */
+}
+
+
+main ul li {
+    width: 100%; /* Ajusta el ancho de la lista según sea necesario */
+}
+
+main ol {
+    font-size: 20px; /* Cambia el tamaño de letra de la lista */
+    text-align: center; /* Centra los números de la lista */
+    list-style-position: inside;
+}
+
+main ol li {
+    font-size: 20px; /* Cambia el tamaño de letra de los elementos de la lista */
+    text-align: center;
+}
+
 /*
 header nav ul li {
     display: inline-block; 
@@ -95,12 +166,24 @@ header header nav ul li a :active{
 }
 */
 
-/* Estilos para el encabezado */
+/* Estilos para el encabezado
 header {
+    background-color: #a5db9d;*/ /* Color de fondo del encabezado 
+    padding: 20px; /* Espacio interior del encabezado 
+    text-align: center;
+}*/
+
+.header1{
     background-color: #a5db9d; /* Color de fondo del encabezado */
     padding: 20px; /* Espacio interior del encabezado */
     text-align: center;
 }
+/*
+.header2{
+    background-color: #a5db9d; /* Color de fondo del encabezado 
+    padding: 20px; /* Espacio interior del encabezado 
+    text-align: center;
+}*/
 
 /* Estilos para la lista de navegación */
 nav ul {
@@ -124,10 +207,15 @@ nav ul li a {
     padding: 5px 10px;
 }
 
-/* Estilos para el estado :active de los enlaces */
+/* Estilos para el estado :active de los enlaces 
 nav ul li a:active {
-    color: #020302; /* Cambia el color de texto cuando el enlace está activo (presionado) */
+    color: #020302; Cambia el color de texto cuando el enlace está activo (presionado) 
     background-color: #45a049 ;
+}
+*/
+
+nav ul li a:hover {
+    color: green; /* Cambia el color de texto cuando el enlace está activo (presionado) */ 
 }
 
 
@@ -140,13 +228,30 @@ nav ul li a:active {
     color: green;
     font-size: 30px;
 }
-
-p {
+/*
+.tres {
     display: flex;
     justify-content: center;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
+*/
+
+.negrita {
+    font-weight: bold;
+    /* Ajusta el espaciado y la apariencia según sea necesario */
+    margin: 0;
+    padding: 0;
+    letter-spacing: normal;
+}
+
+.s4{
+    width: 500px;
+    height: 350px ;
+    background-color: #bbf0de ;
+    overflow: auto;
+}
+
 
 .uno1{
     color: green;
@@ -157,7 +262,7 @@ p {
     color: green;
     font-size: 25px;
 }
-
+/*
 table {
     width: 100%;
     border-collapse: collapse;
@@ -179,6 +284,32 @@ tr:hover {
 td {
     border: 1px solid #ddd;
 }
+*/
+
+.tabla-container {
+    margin: 0 auto; /* Esto centra horizontalmente el contenedor */
+    width: 80%; /* Ancho del contenedor */
+}
+
+table {
+    width: 100%; /* Esto asegura que la tabla ocupe todo el ancho del contenedor */
+    border-collapse: collapse; /* Para juntar los bordes de las celdas */
+}
+
+th, td {
+    border: 1px solid black; /* Para agregar bordes a las celdas */
+    padding: 8px; /* Espaciado interno de las celdas */
+    text-align: left; /* Alineación del texto */
+}
+
+th {
+    background-color: #f2f2f2; /* Color de fondo para las celdas de encabezado */
+}
+
+tr:nth-child(even) {
+    background-color: lightslategray;
+}
+
 
 .arriba{
     color: black; 
@@ -186,6 +317,10 @@ td {
     border: 3px solid green; 
     border-radius: 5px;
     padding: 5px 10px; 
+}
+
+.arriba:hover{
+    color: green;
 }
 
 hr {
@@ -200,8 +335,294 @@ hr {
 .croquetas{
     color: green;
     font-size: 30px;
+    text-align: center;
 }
 
+/*
 main ol li{
     font-size: 25px;
+}
+*/
+
+footer {
+    background-color: #a5db9d; /* Color de fondo del footer */
+    color: #020302; /* Color del texto */
+    padding: 20px; /* Espacio interno del footer */
+    text-align: center; /* Centra el texto */
+}
+
+.footer-container {
+    display: flex; /* Utiliza flexbox para distribuir los elementos horizontalmente */
+    justify-content: space-around; /* Distribuye uniformemente los elementos */
+}
+
+.contactos,.redes-sociales {
+    flex: 1; /* Hace que los elementos ocupen el mismo ancho */
+    margin: 0 10px; /* Margen entre los elementos */
+}
+
+
+.redes-sociales ul {
+    padding: 0;
+    list-style: none; /* Elimina los estilos de la lista */
+}
+
+.redes-sociales ul li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+.redes-sociales ul li a {
+    color: #020302; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.redes-sociales ul li a:hover{
+    color: green;
+}
+
+.terminos {
+    text-align: center; /* Centra los elementos horizontalmente */
+}
+
+.terminos ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+.terminos ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 10px; /* Espacio entre los elementos */
+}
+
+.terminos ul li a {
+    color: #333; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.terminos ul li a:hover {
+    text-decoration: underline; /* Subrayado cuando se pasa el mouse por encima */
+}
+
+.contactos {
+    text-align: center; /* Centra el contenido */
+}
+
+.contactos ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+.contactos ul li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin: 0 10px; /* Espacio entre los elementos */
+}
+
+.contactos ul li a {
+    color: #333; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.contactos ul li a:hover {
+    text-decoration: underline; /* Subrayado cuando se pasa el mouse por encima */
+}
+
+.footer-container .contactos p {
+    font-size: 16px; /* Tamaño de letra para los párrafos dentro de la sección de contactos */
+}
+
+.terminos ul p {
+    font-size: 16px; /* Tamaño de letra para los párrafos dentro de la lista de términos y condiciones */
+}
+
+body{
+    display:grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas:    "h h"
+                            "m a"
+                            "f f";
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+aside {
+    margin-top: 150px;
+}
+
+
+header{
+    grid-area: h;
+}
+
+main{
+    grid-area: m;
+    flex-grow: 1;
+}
+
+aside{
+    grid-area: a;
+}
+
+footer{
+    grid-area: f;
+}
+
+.anuncio {
+    width: 200px; /* Ancho del anuncio */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: center; /* Centra verticalmente el contenido */
+    margin-left: 20px; /* Espacio entre el contenido principal y el anuncio */
+}
+
+.anuncio h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.anuncio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.anuncio p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.anuncio a {
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.anuncio a:hover {
+    background-color: #45a049;
+}
+
+/*
+    .anuncio1 {
+    width: 350px; /* Ancho del anuncio 
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente 
+    justify-content: center; /* Centra verticalmente el contenido 
+    margin-left: 20px; /* Espacio entre el contenido principal y el anuncio 
+    }
+    .anuncio1 a:hover {
+    background-color: #45a049;
+    }
+    .anuncio1 p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+    .anuncio1 a {
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    }
+
+    .formulario {
+    margin-top: 20px;
+    }
+
+    .formulario label {
+    display: block;
+    margin-bottom: 5px;
+    }
+
+    .formulario input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    }
+*/
+
+.aside1 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #79d47e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-direction: row-reverse;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.enlace-izquierda {
+    margin-left: 0; /* Elimina cualquier margen izquierdo */
+    margin-right: auto; /* Empuja el enlace hacia la esquina izquierda */
+    background-color: transparent; /* Hace que el fondo del enlace sea transparente */
+}
+
+
+section p {
+    line-height: 1.5; /* Altura de línea */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+}
+
+section video {
+    max-width: 100%; /* Ancho máximo del video */
+    height: auto; /* Altura automática del video */
+    margin-bottom: 15px; /* Espacio después del video */
 }

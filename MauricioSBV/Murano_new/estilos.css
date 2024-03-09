@@ -15,16 +15,67 @@ header{
 
 main{
     grid-area: main;
+    margin-bottom: 20px;
 }
 
-aside{
+main section iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+aside {
     grid-area: aside;
-    background-color: #776240;
+    background-color: #c0984c;
     border: 10px double #0c0c0c;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  aside h2 {
+    text-decoration: underline black 2px;
+    color: #fff;
+    margin: 5;
+    padding: 10px;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  
+aside li {
+    text-align: center;
+    padding: 50px;
+  }
+
+  aside a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+
+  aside a:hover {
+    background-color: #505050;
 }
 
 footer{
     grid-area: footer;
-    background-color: #776240;
+    color: #fff;
+    background-color: #505050;
     border: 10px double #0c0c0c;
+}
+
+footer p{
+    margin: 0px;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
 }

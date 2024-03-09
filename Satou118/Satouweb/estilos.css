@@ -1,6 +1,7 @@
 body {
     background-color: #BDB76B;
     display: grid;
+    font-family: Helvetica;
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "header header "
                          " main aside "
