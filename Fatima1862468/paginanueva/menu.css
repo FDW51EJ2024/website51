@@ -27,3 +27,8 @@
 .opciones a:hover{
     background-color: #7c0c0c;
 }
+
+figure > blockquote {
+    background-color: burlywood;
+}
+

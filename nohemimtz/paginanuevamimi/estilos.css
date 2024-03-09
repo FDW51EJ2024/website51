@@ -1,0 +1,16 @@
+
+nav ul{
+    background-color: rgb(211, 191, 191);
+    
+}
+
+nav ul li{
+    width: 25%;
+    float: left;
+   display: flex;
+   justify-content: space-around;
+}
+article> img{
+    width: 600px;
+    height: 150px;
+}
