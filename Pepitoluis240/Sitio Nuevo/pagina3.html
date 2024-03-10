@@ -7,85 +7,89 @@
     <link rel="stylesheet" href="estilos_pagina3.css">
 </head>
 <body>
-    <a href="index.html">Inicio</a>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h2>Motores Graficos</h2>
+            <nav>
+                <ul class="nav-item">
+                    <li><a href="index.html"><img src="img/imagen_logo-sinfondo.png" alt="Logo Mario's"></a></li>
+                    <li><a id="colortexto" href="pagina2.html">Origen y Historia</a></li>
+                    <li><a id="colortexto" href="pagina3.html">Ejemplos de Motores Graficos.</a></li>
+                    <li><a id="colortexto" href="pagina4.html">Mas Ejemplos y Contacto</a></li>
+                    <li><a id="colortexto" href="pagina5.html">El futuro de los motores graficos</a></li>
+                </ul>
+            </nav>
+        </header>  
+        
+        <main>
+            <H1>Pagina 3: Como son y ejemplos de Motores graficos actuales</H1>
+            <div class="content">
+                <H2> Componentes de un motor de videojuegos</H2>
 
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                <img class="custom-image-logo" src="img/imagen logo.PNG" alt="Logo Mario's">
-                Inicio
-            </a>
-
-            <div>
-                <li class="nav-item a">
-                    <a class="nav-link" href="pagina2.html">Origen y Historia</a>
-                    <a class="nav-link" href="pagina3.html">Ejemplos de Motores Graficos.</a>
-                    <a class="nav-link" href="pagina4.html">Mas Ejemplos y Contacto</a>
-                    <a class="nav-link" href="pagina5.html">El futuro de los motores graficos</a>
-                </li>
+                <p>
+                    Todos tienen un lenguaje de programación y una serie de componentes básicos. Los más importantes son:
+                </p>
+        
+                <p>1. Motor gráfico o de renderizado. De él depende cómo se muestran las imágenes en la pantalla (2D, 3D) pero también todo lo relacionado con las texturas y la iluminación.</p>
+        
+                <p>2. Motor de sonidos. Tiene tanta importancia como el motor gráfico y es el encargado de sincronizar el sonido, cargar las diferentes pistas o modificarlas a su gusto.</p>
+        
+                <p>3. Física. Imprescindible a la hora de dar naturalidad al juego y de que sus elementos interaccionen entre ellos de forma realista. También controla las colisiones que se producen en el juego.</p>
+        
+                <p>4. Scripting. Se centra en el funcionamiento tanto de los personajes del juego como del resto de objetos que aparecen. El programador debe contar con la opción de poder crear sus propios scripts o modificar los del motor, para poder aplicar todas las ideas que tiene.</p>
+        
+                <p>5. Inteligencia artificial. La IA marca la diferencia también en este sector y está presente en la inmensa mayoría de los videojuegos que apuestan por incluirla como un valor añadido.</p>
+        
+                <img src="img/UI de un motor.jpg" alt="motor" width="350">
+        
+                <H2> Estos son algunos de los motores graficos que se usan actualmente
+                </H2>
+        
+                <H2>Unreal Engine</H2>
+                <p>Creado por Epic Games en 1998, emplea al mismo tiempo el lenguaje C++ y un sistema de blueprints que simplifica su uso para aquellos que no dominan la programación. Es muy visual y sus últimas versiones han añadido la vista previa del renderizado para móviles y permiten acortar hasta en un 50 % los tiempos de compilación.</p>
+                <p></p>
+                <p>Eso sí, obliga a contar con un equipo de alto rendimiento, ya que ocupa mucho espacio y consume mucha memoria.</p>
+                <p></p>
+                <p>Su version mas reciente es Unreal Engine 5 y se encuentra para PS5, Xbox Series X y Nintendo Switch. Algunos juegos que usan este motor son Fortnite, Kingdom Hearts 3, Ark Survival Evolved y PUBG</p>
+                <div id="container">
+                    <img id="elemento1" src="img/UE 5.png" alt="Unreal Engine 5" width="272">
+                    <video id="elemento2" controls src="videos/MatrixCity.mp4" width="272"></video>
+                </div>
+        
+        
+                <H2>Unity 3D</H2>
+                <p>Su funcionamiento es simple e intuitivo, así que es la alternativa preferida por quienes comienzan en este campo. Como Unreal, permite utilizar un mismo script en diferentes plataformas (Mac, Windows, Linux…). Con este motor pueden crearse juegos tanto en 2D como en 3D o añadir elementos de ambos en un mismo proyecto.</p>
+                <p>Este motor es prioritariamente usado para dispositivos moviles. Aunque tambien se usa a veces en consolas. Algunos ejemplos de juegos que usan este motor son Lethal Company, Dead Trigger 1 y 2, Mario Kart Tour entre otros.</p>
+                <img src="img/unity-engine-landscape-swimlane.png" alt="Unity" width="350">
+        
+                <H2>Game Maker Studio</H2>
+                <p>Recurre a su propio sistema de programación, permitiendo crear juegos multijugador o recurrir a la Inteligencia Artificial. Como ocurre con Unity, su interfaz es muy sencilla y sus herramientas, fáciles de utilizar, ya que aplica el sistema drag & drop (arrastrar y soltar).</p>
+        
+                <p>Este motor es habitualmente usado para juegos independientes y para empresas pequeñas. Algunos ejemplos son: Undertale, Return, Research Story y Castle Break</p>
+                <p></p>
+                <img src="img/game maker studio 2.png" alt="Game Maker" width="350">
             </div>
+        </main>
 
-        </div>
-        <H1>Pagina 3: Como son y ejemplos de Motores graficos actuales</H1>
-
-        <H2> Componentes de un motor de videojuegos</H2>
-
-        <p>
-            Todos tienen un lenguaje de programación y una serie de componentes básicos. Los más importantes son:
-        </p>
-
-        <p>1. Motor gráfico o de renderizado. De él depende cómo se muestran las imágenes en la pantalla (2D, 3D) pero también todo lo relacionado con las texturas y la iluminación.</p>
-
-        <p>2. Motor de sonidos. Tiene tanta importancia como el motor gráfico y es el encargado de sincronizar el sonido, cargar las diferentes pistas o modificarlas a su gusto.</p>
-
-        <p>3. Física. Imprescindible a la hora de dar naturalidad al juego y de que sus elementos interaccionen entre ellos de forma realista. También controla las colisiones que se producen en el juego.</p>
-
-        <p>4. Scripting. Se centra en el funcionamiento tanto de los personajes del juego como del resto de objetos que aparecen. El programador debe contar con la opción de poder crear sus propios scripts o modificar los del motor, para poder aplicar todas las ideas que tiene.</p>
-
-        <p>5. Inteligencia artificial. La IA marca la diferencia también en este sector y está presente en la inmensa mayoría de los videojuegos que apuestan por incluirla como un valor añadido.</p>
-
-        <img src="img/UI de un motor.jpg" alt="motor" width="350">
-
-        <H2> Estos son algunos de los motores graficos que se usan actualmente
-        </H2>
-
-        <H2>Unreal Engine</H2>
-        <p>Creado por Epic Games en 1998, emplea al mismo tiempo el lenguaje C++ y un sistema de blueprints que simplifica su uso para aquellos que no dominan la programación. Es muy visual y sus últimas versiones han añadido la vista previa del renderizado para móviles y permiten acortar hasta en un 50 % los tiempos de compilación.</p>
-        <p></p>
-        <p>Eso sí, obliga a contar con un equipo de alto rendimiento, ya que ocupa mucho espacio y consume mucha memoria.</p>
-        <p></p>
-        <p>Su version mas reciente es Unreal Engine 5 y se encuentra para PS5, Xbox Series X y Nintendo Switch. Algunos juegos que usan este motor son Fortnite, Kingdom Hearts 3, Ark Survival Evolved y PUBG</p>
-        <img src="img/UE 5.png" alt="Unreal Engine 5" width="350">
-        <video controls src="videos/MatrixCity.mp4" width="350"></video>
-
-        <H2>Unity 3D</H2>
-        <p>Su funcionamiento es simple e intuitivo, así que es la alternativa preferida por quienes comienzan en este campo. Como Unreal, permite utilizar un mismo script en diferentes plataformas (Mac, Windows, Linux…). Con este motor pueden crearse juegos tanto en 2D como en 3D o añadir elementos de ambos en un mismo proyecto.</p>
-        <p>Este motor es prioritariamente usado para dispositivos moviles. Aunque tambien se usa a veces en consolas. Algunos ejemplos de juegos que usan este motor son Lethal Company, Dead Trigger 1 y 2, Mario Kart Tour entre otros.</p>
-        <img src="img/unity-engine-landscape-swimlane.png" alt="Unity" width="350">
-
-        <H2>Game Maker Studio</H2>
-        <p>Recurre a su propio sistema de programación, permitiendo crear juegos multijugador o recurrir a la Inteligencia Artificial. Como ocurre con Unity, su interfaz es muy sencilla y sus herramientas, fáciles de utilizar, ya que aplica el sistema drag & drop (arrastrar y soltar).</p>
-
-        <p>Este motor es habitualmente usado para juegos independientes y para empresas pequeñas. Algunos ejemplos son: Undertale, Return, Research Story y Castle Break</p>
-        <p></p>
-        <img src="img/game maker studio 2.png" alt="Game Maker" width="350">
-    <cite>
-        <H2> Referencias Bibliograficas</H2>
-        <p>(2023). Los motores de videojuegos: componentes y principales plataformas. UNIR La universidad en Internet.
-            <a href="https://www.unir.net/ingenieria/revista/motores-videojuegos/">https://www.unir.net/ingenieria/revista/motores-videojuegos/</a>
-        </p> 
-
-        <small>
-            <mark>Copyright ©</mark> José Luis Garza Gloria. Estudiante Programador de Desarrollo Web en Facpya
-        </small>
-    </cite>
-
-    <strong><H2>Contactanos</H2></strong>
-    <p>
-      José Luis Garza Gloria<br>
-      Teléfono: 555-1234<br>
-      Email: jose.garzaglr@example.com
+        <footer>
+            <cite>
+                <H2> Referencias Bibliograficas</H2>
+                <p>(2023). Los motores de videojuegos: componentes y principales plataformas. UNIR La universidad en Internet.
+                    <a href="https://www.unir.net/ingenieria/revista/motores-videojuegos/">https://www.unir.net/ingenieria/revista/motores-videojuegos/</a>
+                </p> 
+        
+                <small>
+                    <mark>Copyright ©</mark> José Luis Garza Gloria. Estudiante Programador de Desarrollo Web en Facpya
+                </small>
+            </cite>
+        
+            <strong><H2>Contactanos</H2></strong>
+            <p>
+              José Luis Garza Gloria<br>
+              Teléfono: 555-1234<br>
+              Email: jose.garzaglr@example.com
+        </footer>
+    </div>
 </body>
 </html>

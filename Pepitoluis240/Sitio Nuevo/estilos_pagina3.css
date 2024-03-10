@@ -1,3 +1,20 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "main main footer";
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .custom-image-logo {
     width: 50%; /* Hace que las imágenes sean responsive y ocupen el 100% del contenedor */
     max-width: 165px; /* Ancho máximo según tus preferencias */
@@ -12,4 +29,64 @@ figure {
 figcaption {
     text-align: center; /* Centra el texto dentro del pie de página */
     margin-top: 10px; /* Ajusta el espacio superior según tus preferencias */
+}
+
+
+
+header{
+    grid-area: header;
+    background-color: rgba(177, 61, 61, 0.767);
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav img {
+    max-width: 175px;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    grid-area: footer;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#container {
+    margin: 80px auto;
+    width: 90%;
+    height: 360px;
+    max-width: 1080px;
+    outline: 4px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 136px 10em 1fr 1fr;
+}
+
+#elemento1 {
+    grid-column: 2/3;
+    grid-row: -4/-3;
+}
+
+#elemento2 {
+    grid-column: 4/5;
+    grid-row: -4/-3;
 }
