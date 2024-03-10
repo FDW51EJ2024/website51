@@ -22,38 +22,18 @@
     border: 10px solid red;
 }
 
-.fighters_Container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.Log_in{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.center{
-    display: flex;
-    justify-content: center;
-}
-
-.container{
-    display: flex;
-}
-
 body{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    grid-template-areas: "header header" "main aside" "footer footer";
+    grid-template-areas: "header header" "main main" "aside footer";
 }
 
 header{
-    background-color: gray;
+    background-color: red;
     grid-area: header;
 }
 main{
-    background-color: gray;
+    background-color: red;
     grid-area: main;
 }
 aside{
@@ -61,6 +41,6 @@ aside{
     grid-area: aside;
 }
 footer{
-    background-color: rgb(207, 207, 207);
+    background-color: gray;
     grid-area: footer;
 }

@@ -1,0 +1,30 @@
+.Special_move{
+    border: 10px solid black;
+}
+
+.Joker_colors{
+    border: 10px solid red;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: "header header" "main main" "aside footer";
+}
+
+header{
+    background-color: rgb(255, 61, 61);
+    grid-area: header;
+}
+main{
+    background-color: rgb(255, 61, 61);
+    grid-area: main;
+}
+aside{
+    background-color: rgb(47, 47, 253);
+    grid-area: aside;
+}
+footer{
+    background-color: rgb(47, 47, 253);
+    grid-area: footer;
+}
