@@ -1,0 +1,36 @@
+
+.opcion{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: beige;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opcion img {
+    width: 40px;
+    height: 40px;
+}
+
+.opcion a{
+    color: black;
+}
+
+.opcion a[href$="html"]{
+    padding: 29px 0px 30px;
+}
+
+.opcion div:hover{
+    background-color: burlywood;
+}
+
+.opcion a:hover{
+    background-color: burlywood;
+}
+
+figure > blockquote {
+    background-color: burlywood;
+}
+.titulos{
+    display: flex;
+}

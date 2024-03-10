@@ -1,0 +1,164 @@
+
+nav {
+    display: flex;
+    justify-content: center; 
+    background-color: #D9A05B; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 150px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* COLOR DEL TEXTO */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background-color: #ddb88b; /* CAMBIA COLOR AL PASAR RATON */
+    color: rgb(255, 255, 255);
+}
+
+/* CENTRADO DE IMAGENES */
+#gatocomiendo {
+
+        display: block; /* Asegura que la imagen se comporte como un bloque */
+        margin-left: auto; /* Centra la imagen horizontalmente */
+        margin-right: auto; /* Centra la imagen horizontalmente */
+        width: 500px; /* Anchura de la imagen alimentotoxico */
+}
+    
+
+#gatocomiendocroquetas {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px; 
+}
+
+#alimentotoxico {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+#gatotomandoagua {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+}
+
+#gatoesfinje {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 700px; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#halimentacion {
+    text-align: center; /* CENTRA TEXTO A MITAD DE PAGINA */
+    color: #629772;
+}
+
+#hinicio {
+    text-align: center; /* CENTRA TEXTO A MITAD DE PAGINA */
+    color: #a57d4c;
+}
+p {
+    color: rgb(60, 71, 71);
+}
+
+
+#hcomportamientos {
+    text-align: center; /* CENTRA TEXTO A MITAD DE PAGINA */
+    color: #9b83d4;
+}
+
+#texto2{
+    text-align: center; 
+}
+
+#tabla{
+    text-align: center; 
+}
+
+#videogatito {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 900px; 
+}
+
+#videogato {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 900px; 
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif ;
+    font-size: 12px;
+    color: #816b4d;
+}
+
+th, td {
+    padding: 5px;
+    border-bottom: 0.5px solid #aa998b;
+    text-align: center;
+}
+
+th {
+    background-color: #f3ebe3;
+}
+main{
+    grid-area: m;
+    background-color: #eed1b9;
+    
+}
+
+section{
+    grid-area: s;
+    background-color: #c4c4c4;
+}
+
+article{
+    grid-area: r;
+    background-color: #c4ab95;
+}
+aside{
+    grid-area: a;
+    background-color: #e7e7e7;
+    
+}
+footer{
+    grid-area: f;
+    background-color: #facfdc;
+    
+}
+
+
+
+

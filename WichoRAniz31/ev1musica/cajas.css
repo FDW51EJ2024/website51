@@ -1,0 +1,111 @@
+body{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas:   "n n"
+                           "h a"
+                           "s a"
+                           "m m"
+                           "r r"
+                           "f f";
+}
+nav{
+    grid-area: n;
+    background-color: #638889;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+    
+.nav-links li {
+    margin-right: 20px;
+}
+    
+.nav-links li:last-child {
+    margin-right: 0;
+}
+    
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+    
+.search-bar {
+    display: flex;
+}
+    
+.search-bar input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+    
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+header{
+    grid-area: h;
+    background-color: #EBD9B4;
+}
+section{
+    grid-area: s;
+    background-color: #F9EFDB;
+}
+main{
+    grid-area: m;
+    background-color: #F9EFDB;
+    
+}
+aside{
+    grid-area: a;
+    background-color: #9DBC98;
+    
+}
+footer{
+    grid-area: f;
+    background-color: #638889;
+    text-align: center;
+    padding: 20px;
+}
+article{
+    grid-area: r;
+    background-color: #F9EFDB;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: #638889;
+    
+   
+}
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: #9DBC98;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    background-color: #9DBC98;
+}
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+#formulario{
+    padding-left: 10%;
+}
