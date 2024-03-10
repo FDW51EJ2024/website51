@@ -120,7 +120,7 @@ h2{
 
 /*--------------------------------------------------------------------------*/
 
-/*Hoja de futbo_2, Goleadores Historicos*/
+/*Hoja de futbol_2, Goleadores Historicos*/
 
 .diseño-nomb-fotos {
     display: grid;
@@ -157,3 +157,29 @@ h2{
     background-color: #bb4747;
   }
 /*-------------------------------------------------------------------*/
+
+/*Hoja de futbol_3 LOS MEJORES EQUIPOS*/
+
+.fotos-texto-f3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.fotos-texto-f3 > div {
+    flex: 1 1 300px; 
+    text-align: center;
+}
+
+.fotos-texto-f3 p {
+    background-color: #bb4747; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+
+.fotos-texto-f3 img {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    border-radius: 10px; 
+}
