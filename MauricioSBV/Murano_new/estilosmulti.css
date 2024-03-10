@@ -13,48 +13,20 @@ header{
     border: 10px double #0c0c0c;
 }
 
+
 main{
     grid-area: main;
     margin-bottom: 20px;
 }
 
-table {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 100px;
-}
-
-th{
-    border: 1px solid #080808;
-    padding: 10px;
-    text-align: left;
-}
-
-td{
-    border: 1px solid #070707;
-    padding: 10px;
-    text-align: left;
-    background-color: #828282;
-}
-
-th {
-    background-color: #6765c8; 
-}
-
-form {
+main section iframe{
     display: block;
-    margin-top: 100px;
-    margin-left: 20px;
-    width: fit-content;
-    gap: 1px;
+    margin: 0 auto;
 }
 
 aside {
     grid-area: aside;
-    background-color: #4589c4;
+    background-color: #90459a;
     border: 10px double #0c0c0c;
     display: flex;
     flex-direction: column; 
