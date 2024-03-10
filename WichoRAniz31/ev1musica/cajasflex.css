@@ -38,10 +38,10 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 body > div {
-    text-align: center; /* Centra horizontalmente el contenido */
+    text-align: center; 
 }
 
 body > div > video {
     display: block;
-    margin: auto; /* Centra horizontalmente el video */
+    margin: auto; 
 }
