@@ -224,5 +224,30 @@ th, td {
 th {
     background-color: #f3ebe3;
 }
+main{
+    grid-area: m;
+    background-color: #eed1b9;
+    
+}
+
+section{
+    grid-area: s;
+    background-color: #c4c4c4;
+}
+
+article{
+    grid-area: r;
+    background-color: #c4ab95;
+}
+aside{
+    grid-area: a;
+    background-color: #e7e7e7;
+    
+}
+footer{
+    grid-area: f;
+    background-color: #facfdc;
+    
+}
 
 
