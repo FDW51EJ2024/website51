@@ -1,0 +1,22 @@
+
+nav ul li{
+    float: left;
+    width: 25%;
+}
+
+article> img{
+    width: 600px;
+    height: 150px;
+}
+
+body{
+   background-color: darksalmon;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.textos{
+    display: flex;
+}

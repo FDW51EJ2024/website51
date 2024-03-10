@@ -1,0 +1,49 @@
+
+body {
+    background-image:url(spacecover.jpg) ;
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr 1fr;
+    grid-template-areas:    "s1 h h s2"
+                            "s1 b a s2"
+                            "s1 f f s2"
+}
+
+h1 {
+    grid-area: h;
+    color: deeppink;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    -webkit-text-stroke: 2px greenyellow;
+}
+article {
+    background-color:#d3d3d3 ;
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+article h2{
+    font-size: 64px;
+    color: darkorange;
+    -webkit-text-stroke: 2px black;
+}
+article p,article a{
+    display:inline;
+    font-size: 40px;
+}
+
+aside {
+    grid-area: a;
+    background-color:#b6b6b6 ;
+    font-size: 40px;
+}
+li{
+    line-height: 60px;
+}
+footer {
+    grid-area: f;
+    background-color:#c4c3c3 ;
+    color: rgb(46, 68, 14);
+}

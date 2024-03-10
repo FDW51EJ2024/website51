@@ -1,0 +1,60 @@
+#menu-paginas a {
+    display: inline-block;
+    color: white;
+    margin: 8px;
+    padding: 8px 78px;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+#menu-paginas a:hover{
+    background-color: #ffee00;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+#texto-inicio {
+    color: #faddb4;
+    text-align: center;
+    font-size: medium;
+    font-family:monospace;
+    margin: 5px
+}
+#texto-cuerpo {
+    color: #faddb4;
+    text-align: justify;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 20px
+}
+
+#img-gato-inicio{
+    margin: auto;
+    padding: 20px;
+}
+
+#p2-texto-inicial{
+    color: #faddb4;
+    text-align: justify;
+    font-size: larger;
+    font-family:monospace;
+    margin: 5px
+}
+
+#tabla-gatos{
+    background-color: #faddb4;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#texto-gato-com{
+    color: #faddb4;
+    text-align: justify;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 20px
+}

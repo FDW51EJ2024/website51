@@ -1,0 +1,45 @@
+.Special_move{
+    border: 10px solid black;
+}
+
+.fire{
+    border: 3px solid red;
+    text-decoration: underline red;
+}
+
+.thunder{
+    border: 3px solid yellow;
+    text-decoration: underline yellow;
+}
+
+.freeze{
+    border: 3px solid cyan;
+    text-decoration: underline cyan;
+}
+
+.Joker_colors{
+    border: 10px solid red;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: "header header" "main main" "aside footer";
+}
+
+header{
+    background-color: rgb(179, 179, 179);
+    grid-area: header;
+}
+main{
+    background-color: rgb(179, 179, 179);
+    grid-area: main;
+}
+aside{
+    background-color: rgb(172, 190, 80);
+    grid-area: aside;
+}
+footer{
+    background-color: rgb(172, 190, 80);
+    grid-area: footer;
+}

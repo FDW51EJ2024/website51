@@ -1,0 +1,83 @@
+/* con este nav se agrega hace a la izquierda */
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+/* El nombre de ProNurseSolutions se hace negro*/
+h1{
+    color: white;
+    font-size: 40px;
+}
+/* se hace en linea el nav */
+ul li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+/* Las letras se hacen negras */
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+/* Con esta las letras pasarle el mouse se hacen verdes */
+a:hover {
+    color: black;
+}
+
+header{
+    background-image: url(img_sitio.nuevo/pexels-artem-podrez-7233117.jpg);
+}
+
+/*Todos los textps "p" en justificado*/
+p{
+    text-align: justify;
+}
+
+/*Aqui se le agrego estilo a las letras*/
+h2,p{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+}
+/*se manda la imagen de la publicidad a la derecha*/
+.publicidad{
+    float: right;
+    border: 5px solid black;
+    margin: 10px 5px ;
+}
+/*se hace el flexbox de article*/
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background: gray;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+/*se hace los contenedores de cada seccion*/
+.section{
+    border: 5px solid black;
+    background: white;
+    color: black;
+    margin: 5px;
+    font-size: 100%;
+
+}
+
+/*centrar la imagen del logo de la agencia*/
+section img {
+    display: block;
+    margin: auto;
+  }
+  
+/*Aqui se le agrega color a las letras debajo del anuncio de los pañales*/
+
