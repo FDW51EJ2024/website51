@@ -59,7 +59,6 @@ nav{
 header{
     grid-area: h;
     background-color: #EBD9B4;
-    
 }
 section{
     grid-area: s;
@@ -77,10 +76,36 @@ aside{
 }
 footer{
     grid-area: f;
-    background-color: #F9EFDB;
-    
+    background-color: #638889;
+    text-align: center;
+    padding: 20px;
 }
 article{
     grid-area: r;
     background-color: #F9EFDB;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: #638889;
+    
+   
+}
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: #9DBC98;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    background-color: #9DBC98;
+}
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+#formulario{
+    padding-left: 10%;
 }
