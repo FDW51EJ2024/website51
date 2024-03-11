@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información general</title>
+    <link rel="stylesheet" type="text/css" href="estilosev1.css">
+</head>
+<body>
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+            <h1>¿Quiénes somos? - Juvenil Kórima</h1>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Historia.html">Historia</a></li>
+            <li><a href="mistica.html">Mistica</a></li>
+            <li><a href="registro.html">Registro</a></li>
+        </ul>
+        </nav>
+            
+        </header>
+        
+        <main>
+            <section>
+                <h2>Información general</h2>
+                <p>La Juvenil Kórima es un grupo para jóvenes entre 18 y 25 años, ubicado en la parroquia Nuestra Señora de Guadalupe en Escobedo, Nuevo León. Nuestro grupo busca la formación integral de líderes cristianos mediante la vivencia del apostolado, con el objetivo de ser promotores del cambio y reflejar un compromiso de vida.</p>
+            </section>
+        
+            <section>
+                <h2>Actividades</h2>
+                <ul>
+                    <li>Apostolados</li>
+                    <li>Juegos</li>
+                    <li>Campamentos</li>
+                    <li>Torneos de fútbol</li>
+                </ul>
+            </section>
+        
+            <section>
+                <h2>Aspectos de formación (F.I.R.S.T)</h2>
+                <ul>
+                    <li><strong>F</strong>ísico: Juegos de contacto, torneos de fútbol, actividades al aire libre</li>
+                    <li><strong>I</strong>ntelectual: Ciclos formativos, claves, actividades que fomenten la cultura general</li>
+                    <li><strong>R</strong>eligioso: Misas, oraciones, apostolados, retiros</li>
+                    <li><strong>S</strong>ocial: Campamentos, convivencias, juntadas</li>
+                    <li><strong>T</strong>écnico: Aplicación de primeros auxilios, técnicas de comunicación, construcciones</li>
+                </ul>
+            </section>
+        </main>
+        <style>
+            .video-container {
+                position: relative;
+                width: 400px;
+            }
+            .video-container video {
+                width: 100%;
+                height: auto;
+            }
+            .play-button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 50px;
+                height: 50px;
+                background-color: rgb(255, 0, 0);
+                border: none;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 24px;
+                cursor: pointer;
+                outline: none;
+            }
+        </style>
+<div class="video-container">
+    <video id="video" src="videos/Download.mp4"></video>
+    <button class="play-button" onclick="togglePlayPause()">▶</button>
+</div>
+<script>
+    function togglePlayPause() {
+        var video = document.getElementById('video');
+        if (video.paused || video.ended) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
+</script>
+        <iframe src="https://www.tiktok.com/@juvenilkorima/video/7292826381237439749?is_from_webapp=1&sender_device=pc&web_id=7337346477288998406" frameborder="0"></iframe>
+        
+        <footer>
+            <p2>© 2022 Juvenil Kórima. Todos los derechos reservados.</p>
+        </footer>
+        
+        </body>
+        </html>
+</body>
+</html>

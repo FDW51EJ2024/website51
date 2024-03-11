@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Evidencias</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mis Evidencias</h1>
+    </header>
+    <main>
+        <section>
+            <a href="">
+                <h2>Evidencia 1</h2>
+            </a>
+            <p>Bienvenido</p>
+        </section>
+        <section>
+            <a href="#">
+                <h2>Evidencia 2</h2>
+            </a>
+            <p>Descripción breve de la evidencia 2.</p>
+        </section>
+        <section>
+            <a href="#">
+                <h2>Evidencia 3</h2>
+            </a>
+            <p>Descripción breve de la evidencia 3.</p>
+        </section>
+        <section>
+            <a href="#">
+                <h2>PIA</h2>
+            </a>
+            <p>Descripción breve del PIA.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Gracias</p>
+    </footer>
+</body>
+</html>
