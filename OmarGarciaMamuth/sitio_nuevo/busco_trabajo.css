@@ -1,0 +1,101 @@
+/* con este nav se agrega hace a la izquierda */
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+/* El nombre de ProNurseSolutions se hace negro*/
+nav>h1{
+    color: white;
+    font-size: 40px;
+}
+/* se hace en linea el nav */
+ul li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+/* Las letras se hacen negras */
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+/* Con esta las letras pasarle el mouse se hacen verdes */
+a:hover {
+    color: black;
+}
+
+header{
+    background-image: url(img_sitio.nuevo/pexels-artem-podrez-7233117.jpg);
+}
+
+/*Todos los textps "p" en justificado*/
+p{
+    text-align: justify;
+}
+
+/*Aqui se le agrego estilo a las letras*/
+*{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
