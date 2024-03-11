@@ -1,0 +1,264 @@
+/* Pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    grid-template-areas:"h h"
+                        "m a"
+                        "f f";
+}
+
+.links{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display:contents;
+}
+
+
+/* Titulo */
+header {
+    text-align: center;
+    color: #000000;
+    grid-area: h;
+}
+
+
+.titulo {
+    background-image: url(https://i.pinimg.com/564x/a6/ba/f1/a6baf1fc85a5230e05067c6f48cfb4cf.jpg);
+    padding: 10%;
+    margin: 0;
+}
+
+.titulo1{
+    background-image: url(https://i.pinimg.com/564x/09/bc/7a/09bc7adef50ffc74382ce313cfffcf82.jpg);
+    padding: 10%;
+}
+
+.titulo2{
+    background-image: url(https://i.pinimg.com/564x/be/13/31/be133114c54f177400c0673505f320bb.jpg);
+    padding: 10%;
+}
+
+.titulo3{
+    background-image: url(https://i.pinimg.com/564x/2a/72/27/2a72274bf21123a62b6c77637fb69ee6.jpg);
+    padding: 10%;
+}
+
+.titulo4{
+    background-image: url(https://i.pinimg.com/564x/9f/0d/dc/9f0ddccf082379bf2eb51983dbbb4e19.jpg);
+    padding: 10%;
+}
+
+.titulo5{
+    background-image: url(https://i.pinimg.com/564x/ab/60/c2/ab60c2805eb3a12af47bd28a378594c6.jpg);
+    padding: 10%;
+}
+
+
+
+
+/* Links */
+nav{
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+    background: #ffffff;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li{
+    float: left;
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px; /* Añadir bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+nav ul li a:hover {
+    background-color: #eceffa; /* Cambiar el color de fondo al pasar el mouse */
+}
+
+
+
+/* Contenido */
+main{
+    grid-area: m;
+    background-color: #ffffff;
+}
+
+
+
+
+
+/* Imagenes */
+img{
+    display:center;
+    width: 20%;
+    height: auto;
+    margin-left: none;
+}
+
+figure{
+    font-family: Arial, sans-serif;
+    font-size: large;
+    text-align:center;
+    display:flexbox;
+}
+
+.segunda{
+    display:center;
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.inicio{
+    display:inline;
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+}
+
+.historia{
+    display:inline;
+    width: 70%;
+    height: auto;
+}
+
+.barra_imagen{
+    min-width: 400%;
+    height: auto;
+    display:flex;
+}
+
+.imgUs article img{
+    float: left;
+}
+
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    list-style:square;
+}
+
+blockquote{
+    text-align: center;
+}
+
+
+/* Barra lateral */
+aside{
+    grid-area: a;
+    background-color: #ffffff;
+    width: 100%;
+    text-align:center;
+    border: 1px solid #b3b3b3;
+    padding: 2%;
+}
+
+.informacion{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+
+/* sidebar */
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .menu li {
+    margin-bottom: 5px;
+}
+
+.sidebar .menu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .menu li a:hover {
+    background-color: #ddd;
+}
+
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #b3b3b3;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ebe7ff;
+}
+
+
+/* Formulario */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+#contacto1{
+    text-align: center;
+}
+
+#cajas{
+    text-align: justify;
+}
+
+
+
+/* Pie de pagina */
+footer {
+    background-color: #eceffa;
+    color: #757575;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    clear: both; 
+    grid-area: f;
+}
+
