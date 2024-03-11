@@ -54,3 +54,21 @@ nav ul li a:hover {
     color: #00FFFF;
     text-decoration: solid;
 }
+
+.container {
+    display: flex;
+}
+
+.formulario {
+    flex: 1;
+}
+
+.imagen {
+    flex: 1;
+}
+
+img {
+    width: 700px;
+    height: 500px;
+    border: solid 2px black;
+}

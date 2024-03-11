@@ -71,3 +71,15 @@ th, td {
 th {
     background-color: #cec000;
 }
+
+.section1{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border: solid 2px black;
+}
