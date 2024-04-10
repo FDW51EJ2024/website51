@@ -11,6 +11,10 @@ btnSumar.addEventListener("click", e => {
     e.preventDefault();
 
     /* codigo para sumar */
-    let n1 = num1.value;
-    let n2 = num2.value;
+    let n1 = parseInt(num1.value);
+    let n2 = parseInt(num2.value);
+
+    let s = n1 + n2;
+
+    suma.value = s;
 });
