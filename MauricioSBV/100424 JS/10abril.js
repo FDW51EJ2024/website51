@@ -7,9 +7,11 @@ const btnSumar = document.getElementById("btnSuma");
 
 /*Se programa la acción que se ejecutará al hacer click en el botón*/
 btnSumar.addEventListener("click", e => {
-    e.preventDefault();
+    e.preventDefault(); //Evita que los datos se borren despues de presionar el botón.
+
     let n1 = parseInt(num1.value);
     let n2 = parseInt(num2.value);
+    
     let res = n1 + n2;
     resultado.value = res;
 });
