@@ -36,12 +36,12 @@ body {
 }
 
 nav a {
-    font-weight: 600;
+    font-weight: 601;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: grey;
+    color: black;
     font-family: "Montserrat", sans-serif;
     
 }
