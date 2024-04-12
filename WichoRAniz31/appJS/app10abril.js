@@ -3,7 +3,7 @@ const num2=  document.getElementById("num2");
 const suma = document.getElementById("suma");
 const btnsumar = document.getElementById("btnsumar");
 
-
+/*  */
 btnsumar.addEventListener("click", e => {
 
    e.preventDefault();
