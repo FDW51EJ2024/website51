@@ -3,6 +3,7 @@ const num1 = document.getElementById("num1");
 const num2 = document.getElementById("num2");
 const suma = document.getElementById("suma");
 const btnsumar = document.getElementById("btnsumar");
+const btnlimpiar = document.getElementById("btnlimpiar");
 
 btnsumar.addEventListener("click",e=> {
     e.preventDefault();
@@ -12,3 +13,9 @@ btnsumar.addEventListener("click",e=> {
     suma.value = s
 
 });
+
+btnlimpiar.addEventListener("click",e=> {
+    e.preventDefault();
+    formulario.reset();
+});
+

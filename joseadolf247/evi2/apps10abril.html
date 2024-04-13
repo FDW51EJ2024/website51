@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicacion Suma</title>
-    
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1>Aplicacion Suma</h1>
-    <form action="">
-        <div>
-            <label for="num1">Numero uno: </label>
-            <input type="number" name="num1" id="num1">
+    <center>
+        <div class="form">
+            <div class="header">
+                <h1>Aplicacion Suma</h1>
+            </div>
+            <form action="" id="formulario">
+                <div>
+                    <label for="num1">Numero uno: </label>
+                    <input type="number" name="num1" id="num1">
+                </div>
+                <div>
+                    <label for="num2">Numero dos: </label>
+                    <input type="number" name="num2" id="num2">
+                </div>
+                <div>
+                    <label for="suma">Resultado: </label>
+                    <input readonly type="number" name="suma" id="suma">
+                </div>
+                <div>
+                    <input type="submit" value="Sumar" id="btnsumar">
+                    <input type="submit" value="Limpiar" id="btnlimpiar">
+                </div>
+            </form>
         </div>
-        <div>
-            <label for="num2">Numero dos: </label>
-            <input type="number" name="num2" id="num2">
-        </div>
-        <div>
-            <label for="suma">Resultado: </label>
-            <input readonly type="number" name="suma" id="suma">
-        </div>
-        <div>
-            <input type="submit" value="Sumar" id="btnsumar">
-        </div>
-    </form>
+    </center>
     <script src="js/apps10abril.js"></script>
 </body>
 </html>
