@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Calculadora de Suma</title>
 </head>
 <body>
-    <script src="appkells.js"></script>
-    <form calculo=" ">
+    <script src="appkells.js"></script> 
+    <form id="calculo">
         <div>
             <label for="numero1">Primer cifra:</label>
             <input type="text" name="numero1" id="numero1">
@@ -21,10 +21,9 @@
             <input readonly type="text" name="resultado" id="resultado">
         </div>
         <div>
-            <input type="submit" value="suma" id="suma">
+            <input type="button" value="Sumar" onclick="sumar()">
         </div>
     </form>
     <br>
-    <a href="kellyCC_pagina.html">Volver a menu de evidencias.</a>
 </body>
 </html>
