@@ -5,7 +5,6 @@ const boton = document.getElementById(btnnota);
 boton.addEventListener("click", e =>{
     e.preventDefault();
 
-    let excelente = 
 
     if (calif = 100){
 
