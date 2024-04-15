@@ -15,6 +15,9 @@ btnSumar.addEventListener("click", e => {
     let n2 = parseInt(num2.value);
 
     let s = n1 + n2;
-
     suma.value = s;
+});
+
+btnLimpiar.addEventListener("click", e => {
+    e.preventDefault();
 });
