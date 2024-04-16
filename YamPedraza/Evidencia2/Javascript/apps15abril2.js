@@ -3,7 +3,6 @@ const horas = document.getElementById("horas")
 const pago = document.getElementById("pago")
 const sueldo = document.getElementById("sueldo")
 const boton = document.getElementById("btnCalcular")
-const btnLimpiar = document.getElementById("btnLimpiar");
 
 boton.addEventListener("click", e => {
     e.preventDefault();
