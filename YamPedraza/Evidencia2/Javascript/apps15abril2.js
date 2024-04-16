@@ -23,7 +23,3 @@ boton.addEventListener("click", e => {
     }
 
 });
-
-btnLimpiar.addEventListener("click", e => {
-    e.preventDefault();
-});
