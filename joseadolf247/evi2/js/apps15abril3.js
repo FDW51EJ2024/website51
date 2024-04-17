@@ -1,6 +1,7 @@
 const calificacion = document.getElementById("calificacion");
 const nota = document.getElementById("nota");
 const boton = document.getElementById("btnCalcular");
+const btnlimpiar = document.getElementById("btnlimpiar");
 
 boton.addEventListener("click", e => {
     e.preventDefault();
@@ -20,4 +21,9 @@ boton.addEventListener("click", e => {
     } else{
         nota.value = "Calificacion no valida";
     }
+});
+
+btnlimpiar.addEventListener("click",e=> {
+    e.preventDefault();
+    formulario.reset();
 });

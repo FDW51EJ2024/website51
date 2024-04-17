@@ -2,6 +2,7 @@ const horas = document.getElementById("horas");
 const pago = document.getElementById("pago");
 const sueldo = document.getElementById("sueldo");
 const boton = document.getElementById("btnCalcular");
+const btnlimpiar = document.getElementById("btnlimpiar");
 
 boton.addEventListener("click", e => {
     e.preventDefault();
@@ -20,4 +21,9 @@ boton.addEventListener("click", e => {
         let res = hrs * pagoxhr;
         sueldo.value = res;
     }
+});
+
+btnlimpiar.addEventListener("click",e=> {
+    e.preventDefault();
+    formulario.reset();
 });
