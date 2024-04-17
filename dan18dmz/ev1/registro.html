@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" type="text/css" href="estilosev1.css">
+</head>
+<body>
+    <h1>Registro</h1>
+    <nav>
+        <ul>
+   <li><a href="index.html">Inicio</a></li>
+    <li><a href="quienessomos.html">¿Quiénes Somos?</a></li>
+    <li><a href="Historia.html">Historia</a></li>
+    <li><a href="mistica.html">Mistica</a></li>
+        </ul>
+    </nav>
+ 
+   <div class="Formulario">
+    <div class="Registro">
+        <p class="centrado"> <i>Bienvenido,</i> en caso de que gustes que el EC se comunique contigo porfavor llena el siguiente <b>Formulario</b></p>
+    </div>
+        <h2>Formulario de Registro</h2>
+            <label for="nombre">Nombre(s):</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="apellido">Apellidos:</label><br>
+            <input type="text" id="apellido" name="apellido" required><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="fecha">Fecha de nacimiento:</label><br>
+            <input type="date" id="" name="Fecha" required><br>
+<div class="checkbox">
+            <label for="bautismo">Bautismo:</label><br>
+            <input type="checkbox" id="bautismo" name="bautismo" required><br>
+            <label for="confirmacion">Confirmacion:</label><br>
+            <input type="checkbox" id="confirmacion" name="confirmacion" required><br>
+            <label for="comunion">Comunión:</label><br>
+            <input type="checkbox" id="Comunion" name="comunion" required><br>
+        </div>
+        <label>Género:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br>
+        
+        <input type="radio" id="prefiero-no-decirlo" name="genero" value="prefiero-no-decirlo">
+        <label for="prefiero-no-decirlo">Prefiero no decirlo</label><br>
+
+        <label for="externo">¿Haz estado en algun otro grupo del MJC?:</label><br>
+<select id="extero" name="externo">
+  <option value="SI">SI</option>
+  <option value="NO">NO</option>
+</select>
+<label for="telefono">Teléfono:</label><br>
+<input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" required>
+<label for="redes">Si gustas que te contactemos por Redes ingresa el link de tu perfil:</label><br>
+<input type="url" id="redes" name="redes"><br>
+
+<input type="submit" value="Enviar">
+</div>
+</div>
+            
+</body>
+</html>

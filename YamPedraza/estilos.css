@@ -40,7 +40,7 @@ h3 {
 
 ul {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 
@@ -76,7 +76,7 @@ article ul {
 
 /* Estilos para los elementos de la lista de navegación */
 article ul li {
-    display: inline; /* Mostrar los elementos de la lista en línea */
+    display: inline;  /*Mostrar los elementos de la lista en línea */
     justify-content: center;
     margin-right: 20px; /* Espacio entre los elementos de la lista */
 }
