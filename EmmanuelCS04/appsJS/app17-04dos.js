@@ -9,4 +9,5 @@ boton.addEventListener("click", e =>{
         suma = suma + num
     }
     console.log("La suma es: ", suma);
+    alert(suma);
 })
