@@ -1,17 +1,14 @@
-window.onload = function() {
-    var botonSuma = document.getElementById('suma');
-    botonSuma.onclick = sumar;
-}
+const num1 = document.getElementById("num1");
+const num2 = document.getElementById("num2");
+const resultado = document.getElementById("resultado");
+const btnSumar = document.getElementById("btnSuma");
 
-function sumar() {
-    var num1 = parseFloat(document.getElementById('numero1').value);
-    var num2 = parseFloat(document.getElementById('numero2').value);
+btnSumar.addEventListener("click", e => {
+    e.preventDefault(); 
 
-    if (!isNaN(num1) && !isNaN(num2)) {
-        var suma = num1 + num2;
-
-        document.getElementById('resultado').value = suma;
-    } else {
-        alert('Por favor, ingresa números válidos.');
-    }
-}
+    let numero1 = parseInt(num1.value);
+    let numero2 = parseInt(num2.value);
+    
+    let res = numero1 + numero2;
+    resultado.value = res;
+});

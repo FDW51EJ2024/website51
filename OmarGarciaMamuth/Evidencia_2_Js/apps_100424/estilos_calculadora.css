@@ -1,0 +1,26 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 ;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+
+}
+
+.background-page{
+    background-image: url(images/istockphoto-925167552-612x612.jpg)
+}
