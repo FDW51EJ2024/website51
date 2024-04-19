@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Suma</title>
+    <title>Super sumador</title>
 </head>
 <body>
-    <script src="appkells.js"></script> 
-    <form id="calculo">
+    <form action="">
         <div>
-            <label for="numero1">Primer cifra:</label>
-            <input type="text" name="numero1" id="numero1">
+            <label for="num1">Numero uno:</label>
+            <input type="text" name="num1" id="num1">
         </div>
         <div>
-            <label for="numero2">Segunda cifra:</label>
-            <input type="text" name="numero2" id="numero2">
+            <label for="num2">Numero dos:</label>
+            <input type="text" name="num2" id="num2">
         </div>
         <div>
             <label for="resultado">Resultado:</label>
             <input readonly type="text" name="resultado" id="resultado">
         </div>
         <div>
-            <input type="button" value="Sumar" onclick="sumar()">
+            <input type="submit" value="Sumar" id="btnSuma">
         </div>
     </form>
-    <br>
+    <script src="appkells.js"></script>
 </body>
 </html>
