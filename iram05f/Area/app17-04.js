@@ -19,7 +19,7 @@ Boton.addEventListener("click", e =>{
     Result.value=r;
     break;
     default:
-            Result.value="Figura no reconocida";
+            Result.value="Figura no reconocida.";
         break;
     }
 })
