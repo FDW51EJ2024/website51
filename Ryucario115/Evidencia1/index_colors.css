@@ -1,0 +1,66 @@
+.Special_move{
+    border: 10px solid black;
+}
+
+.character_outline{
+    border: 5px solid cyan;
+}
+
+.fire{
+    text-decoration: underline red;
+}
+
+.thunder{
+    text-decoration: underline yellow;
+}
+
+.freeze{
+    text-decoration: underline cyan;
+}
+
+.Joker_colors{
+    border: 10px solid red;
+}
+
+.fighters_Container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Log_in{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+header{
+    background-color: gray;
+    grid-area: header;
+}
+main{
+    background-color: gray;
+    grid-area: main;
+}
+aside{
+    background-color: gray;
+    grid-area: aside;
+}
+footer{
+    background-color: rgb(207, 207, 207);
+    grid-area: footer;
+}

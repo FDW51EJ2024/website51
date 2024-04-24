@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Equipo</title>
+    <link rel="stylesheet" href="busco_trabajo.css">
+</head>
+<header>
+    <div>
+        <nav>
+            <h1>ProNurseSolutions</h1>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="our_equipo.html">Nuestro Equipo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="busco_trabajo.html">Buscas trabajo</a></li>
+                </ul>
+        </nav> 
+    </div>
+</header>
+
+<body>
+    <div class="formulario">
+        <h2>Formulario de Búsqueda de Empleo</h2>
+        <form action="/submit_formulario" method="post">
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+            </div>
+
+            <div class="campo">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos">
+            </div>
+
+            <div class="campo">
+                <label for="correo">Correo electrónico:</label>
+                <input type="text" id="correo" name="correo" placeholder="Ingrese su correo electrónico">
+            </div>
+
+            <div class="campo">
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono">
+            </div>
+
+            <div class="campo">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Ingrese su dirección">
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

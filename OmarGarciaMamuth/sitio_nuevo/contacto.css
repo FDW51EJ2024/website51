@@ -1,0 +1,110 @@
+/* con este nav se agrega hace a la izquierda */
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+/* El nombre de ProNurseSolutions se hace negro*/
+nav > h1{
+    color: white;
+    font-size: 40px;
+}
+
+
+/* se hace en linea el nav */
+ul li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+
+
+/* Las letras se hacen negras */
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+/* Con esta las letras pasarle el mouse se hacen verdes */
+a:hover {
+    color: black;
+}
+
+header{
+    background-image: url(img_sitio.nuevo/pexels-artem-podrez-7233117.jpg);
+}
+
+/*Todos los textps "p" en justificado*/
+p{
+    text-align: justify;
+}
+
+/*Aqui se le agrego estilo a las letras*/
+*{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 5px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.contenido {
+    width: 800px;
+    padding: 20px;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+address {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 5px solid #ccc;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
