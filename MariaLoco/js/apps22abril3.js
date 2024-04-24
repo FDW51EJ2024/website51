@@ -10,26 +10,22 @@ boton.addEventListener("click", e => {
     e.preventDefault();
     let ini = parseInt(inicio.value);
     let f = parseInt(fin.value);
-
+    let i = ini;
     lista.innerHTML = "";
 
-    for (let i = ini; i <= f; i++) {
+    do {
         let isPrime = true;
-        if (i > 1) {
-            for (let j = 2; j <= Math.sqrt(i); j++) {
-                if (i % j === 0) {
-                    isPrime = false;
-                    break;
-                }
+        for (let j = 2; j < i; j++) {
+            if (i % j === 0) {
+                isPrime = false;
+                break;
             }
-        } else {
-            isPrime = false;
         }
-
         if (isPrime) {
             let item = document.createElement("li");
-            item.textContent = i;
+            item.innerHTML = i;
             lista.appendChild(item);
         }
-    }
+        i++;
+    } while (i <= f);
 });
