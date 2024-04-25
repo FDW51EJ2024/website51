@@ -6,28 +6,29 @@ const lista = document.getElementById("lista");
 
 boton.addEventListener("click", e => {
     e.preventDefault();
-    let.preventDefault();
     let ini = parseInt(inicio.value);
     let f = parseInt(fin.value);
     let o = orden.value;
-    if( o == "A" ){
+    if( o == "A"){
+  
         let i = ini;
         lista.innerHTML = "";
         do{
             let item = document.createElement("li");
-            item,innerHTML = i;
+            item.innerHTML = i;
             lista.appendChild(item);
             i++;
-        }while( i <= f );
+        }while( i <= f);
     }
-    else if    if( o == "D" ){
+    else if( o == "D"){
+  
         let i = f;
         lista.innerHTML = "";
         do{
             let item = document.createElement("li");
-            item,innerHTML = i;
+            item.innerHTML = i;
             lista.appendChild(item);
             i--;
-        }while( i >= ini );
-    }
+        }while( i >= ini);
+    } 
 })

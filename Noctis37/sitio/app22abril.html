@@ -3,20 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>app 22 abril</title>
+    <title>Javascript 22/04/2024</title>
 </head>
 <body>
-    <h1>22 de abril</h1>
     <form action="">
         <div>
-            <label for="texto">Texto:</label>
-            <input type="texto" name="texto" id="texto">
+            <label for="inicio">Inicio</label>
+            <input type="text" name="inicio" id="inicio">
         </div>
-        <div id="salida">&nbsp;</div>
+
         <div>
-            <input type="submit" value="Calcular" id="btnCalcular">
+            <label for="fin">Fin</label>
+            <input type="text" name="fin" id="fin">
         </div>
+
+        <div>
+            <label for="order">Orden:</label>
+            <select name="orden" id="orden">
+                <option value="A">Ascendente</option>
+                <option value="D">Descendente</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="Ver" id="btnVer">
+        </div>
+        <ul id="lista">
+
+        </ul>
+
+        <script src="app-22-042.js"></script>
+
+
     </form>
-    <script src="js/app22abril.js"></script>
 </body>
 </html>
